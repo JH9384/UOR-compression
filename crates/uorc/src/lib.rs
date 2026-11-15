@@ -63,6 +63,7 @@ use std::io::{self, Read, Seek, SeekFrom, Write};
 
 pub mod archive;
 pub mod chunk;
+pub mod coordinates;
 mod frame;
 pub mod ncm;
 pub mod performance;
