@@ -1,0 +1,178 @@
+# Records receipts. After a bootstrap, offline or release run from this
+# repository completes, this turns the outcomes its jobs uploaded into receipts
+# on the factory-receipts branch (scripts/factory.mjs publish). It runs from the
+# default branch with its own token, so no pull-request code ever gets write
+# access, and an outcome from a fork is never recorded. Runs that finish
+# together each rebuild on the branch's newest head and retry the push.
+#
+# Then it ships the default branch's workspace version when nothing has yet:
+# merging a version bump is the release. Once the bootstrap gate is proved on
+# the head, a release rehearsal builds, benchmarks and decides that tree; once
+# every release stage is proved too, the head is tagged v<version> and
+# release.yml is dispatched from the default branch to publish it (a tag made
+# with this token starts no workflow, and the github-pages environment
+# refuses tag refs, so the run comes from the branch and checks out the tag).
+#
+# After a bootstrap run, and when a request is labelled `merge-train`, it moves
+# the merge train (scripts/factory.mjs merge-train): labelled requests into the
+# default branch merge one at a time, in label order. The head of the train is
+# squash-merged once it contains the default branch and the required checks
+# passed on it; a head that lacks the default branch is asked, once, to take
+# it in with an ordinary push (the train never pushes to a rider: this token's
+# push holds the request's own checks for approval). After each merge
+# bootstrap is dispatched on the default branch; the release step runs after
+# the train in the same run, so a merged version bump goes to its rehearsal at
+# once (an up-to-date request's receipts already prove its merged tree).
+#
+# A run this token dispatches (a rehearsal, a publish, a bootstrap after a
+# merge, an engine tick's gate) starts no workflow_run when it completes. Every
+# factory run therefore also collects the completed runs the token dispatched
+# that the receipts do not record yet (scripts/factory.mjs unrecorded), and a
+# release run hands itself over by dispatching this workflow with `after`.
+name: factory
+
+on:
+  workflow_run:
+    workflows: [bootstrap, SDK offline reproducibility, release, pages client]
+    types: [completed]
+  # Labelling a request `merge-train` moves the train at once. It runs from
+  # the default branch; no request code is checked out.
+  pull_request_target:
+    types: [labeled]
+  # Re-decides the release step and moves the merge train by hand (e.g. after
+  # fixing a failed rehearsal).
+  workflow_dispatch:
+    inputs:
+      after:
+        description: A run of this repository to wait for and record first (the release run that dispatched this one)
+        required: false
+        default: ''
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  receipts:
+    name: record receipts
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.head_repository.full_name == github.repository
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        if: github.event_name == 'workflow_run'
+        with:
+          pattern: factory-outcome-*
+          path: .tmp/outcomes
+          merge-multiple: true
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ github.token }}
+      - name: Publish the run's receipts and reweigh the schedule
+        if: github.event_name == 'workflow_run'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          FACTORY_RUN_ID: ${{ github.event.workflow_run.id }}
+          FACTORY_RUN_ATTEMPT: ${{ github.event.workflow_run.run_attempt }}
+        run: node scripts/factory.mjs publish .tmp/outcomes
+      - name: Collect the runs this token dispatched
+        env:
+          GH_TOKEN: ${{ github.token }}
+          AFTER: ${{ inputs.after }}
+        run: |
+          set -euo pipefail
+          if [ -n "$AFTER" ]; then
+            case "$AFTER" in *[!0-9]*) echo "after must be a run id" >&2; exit 1;; esac
+            gh run watch "$AFTER" --repo "$GITHUB_REPOSITORY" >/dev/null || true
+          fi
+          node scripts/factory.mjs unrecorded | while read -r run attempt; do
+            raw=".tmp/collected-raw/$run-$attempt" out=".tmp/collected/$run-$attempt"
+            mkdir -p "$raw" "$out"
+            gh run download "$run" --repo "$GITHUB_REPOSITORY" --pattern 'factory-outcome-*' --dir "$raw" || echo "run $run: no outcome artifacts left"
+            find "$raw" -name '*.outcome' -exec cp {} "$out/" \;
+          done
+          node scripts/factory.mjs collect .tmp/collected
+
+  release:
+    name: tag the workspace version
+    needs: [receipts, merge-train]
+    if: always() && needs.receipts.result == 'success'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    concurrency:
+      group: factory-release
+      cancel-in-progress: false
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Decide the next release step for the head
+        id: step
+        env:
+          TRIGGER: ${{ github.event.workflow_run.name || github.event_name }}
+        run: node scripts/factory.mjs release-step --context "trigger=$TRIGGER" | tee -a "$GITHUB_OUTPUT"
+      - name: Rehearse the release on the head
+        if: steps.step.outputs.step == 'rehearse'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+          SHA: ${{ steps.step.outputs.sha }}
+        run: |
+          set -euo pipefail
+          busy=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow release.yml --json status --jq '[.[] | select(.status != "completed")] | length')
+          if [ "$busy" != 0 ]; then echo "a release run is already in progress; its receipts decide the next step"; exit 0; fi
+          gh workflow run release.yml --repo "$GITHUB_REPOSITORY" --ref "$DEFAULT_BRANCH" -f ref="$SHA" -f mode=rehearsal
+      - name: Tag the head and publish it
+        if: steps.step.outputs.step == 'tag'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+          TAG: ${{ steps.step.outputs.tag }}
+          SHA: ${{ steps.step.outputs.sha }}
+        run: |
+          set -euo pipefail
+          object=$(gh api "repos/$GITHUB_REPOSITORY/git/tags" -f tag="$TAG" -f message="uorc $TAG" -f object="$SHA" -f type=commit --jq .sha)
+          gh api "repos/$GITHUB_REPOSITORY/git/refs" -f ref="refs/tags/$TAG" -f sha="$object" >/dev/null
+          gh workflow run release.yml --repo "$GITHUB_REPOSITORY" --ref "$DEFAULT_BRANCH" -f ref="$TAG" -f mode=publish
+          echo "::notice title=released $TAG::tagged $SHA and dispatched the publish run"
+
+  merge-train:
+    name: move the merge train
+    needs: receipts
+    if: always() && (github.event_name == 'workflow_dispatch' || github.event.workflow_run.name == 'bootstrap' || github.event.label.name == 'merge-train')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    concurrency:
+      group: factory-merge-train
+      cancel-in-progress: false
+    # contents: update a request's branch and merge it; pull-requests: merge,
+    # take the label off and comment; issues: create the label when missing;
+    # checks: read the required checks; actions: list and dispatch bootstrap runs.
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+      checks: read
+      actions: write
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Update, test or merge the head of the train
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: node scripts/factory.mjs merge-train

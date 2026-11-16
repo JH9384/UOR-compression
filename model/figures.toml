@@ -1,0 +1,4210 @@
+# Fixed figures in uorc's implementation (written by `just figures-write`; see crates/figures).
+# Every number here is a site the Prism model does not yet derive: the distance of
+# Uorc.Performance::implementationFigures. `just figures` rejects any site not listed and
+# any listing the implementation no longer holds; the writer never raises a count.
+
+schema = "uorc/figures/1"
+sites = 4670
+under_facets = 7
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "allowances"
+values = { "1099511627776" = 4 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "compress"
+values = { "2" = 1, "5" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "covers"
+values = { "5" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "decodeQuery"
+values = { "1048576" = 1, "1099511627776" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "family"
+values = { "2" = 1, "3" = 1, "4" = 1, "4096" = 1, "65536" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "hostMemory"
+values = { "536870912" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "learnedTrial"
+values = { "2147483648" = 4 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "matchLoop"
+values = { "31" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "pageBytes"
+values = { "2" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "pairMissing"
+values = { "5" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "policy"
+values = { "64" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "printableFrom"
+values = { "9" = 1, "10" = 1, "13" = 1, "32" = 1, "127" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "profileInputs"
+values = { "2" = 22, "3" = 1, "4" = 1, "8" = 1, "16" = 1, "32" = 1, "64" = 1, "128" = 1, "256" = 1, "512" = 1, "1024" = 1, "2048" = 1, "4096" = 1, "8192" = 1, "16384" = 1, "32768" = 1, "65536" = 1, "131072" = 1, "262144" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "query"
+values = { "1048576" = 1, "1099511627776" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "rawLength"
+values = { "2" = 1, "41" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "recentWindow"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "stepLoop"
+values = { "32" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "stepTable"
+values = { "32" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "stepWindow"
+values = { "32" = 1, "2147483648" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "strategyCount"
+values = { "5" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "strategyState"
+values = { "4" = 1, "5" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "strategyTrial"
+values = { "2147483648" = 4, "4294967296" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "strategyWord"
+values = { "2" = 1, "3" = 1, "5" = 1, "256" = 1, "65536" = 1, "16777216" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "tableBytes"
+values = { "2" = 1, "4" = 2, "131072" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "tableCandidate"
+values = { "64" = 1, "1048576" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "textFrame"
+values = { "9" = 1, "10" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "trialSteps"
+values = { "8" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "v04Pair"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "withMatch"
+values = { "32" = 1, "67108864" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Client.lex.tex"
+item = "withTable"
+values = { "64" = 1, "1048576" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "byteAt"
+values = { "256" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "chainLoop"
+values = { "64" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "deepPrefix"
+values = { "3" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "deepTail"
+values = { "3" = 1, "5" = 1, "8" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "digest"
+values = { "64" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "fastDecode"
+values = { "6" = 1, "7" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "frameWord"
+values = { "16" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "learnedCandidate"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "lengthAt"
+values = { "9" = 1, "10" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "linkedBodyAs"
+values = { "10" = 1, "128" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "linkedCandidate"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "linkedDecode"
+values = { "32" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "linkedHeader"
+values = { "8" = 1, "9" = 1, "10" = 2, "64" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "materialize"
+values = { "6" = 1, "7" = 1, "32" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "namedState"
+values = { "32" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "number"
+values = { "10" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "payloadAt"
+values = { "10" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "profileCandidate"
+values = { "2" = 2, "1048576" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "profileWord"
+values = { "5" = 1, "32" = 1, "64" = 1, "1048576" = 1, "2147483648" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "profiledDecodeAs"
+values = { "10" = 2, "32" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "rawPayload"
+values = { "9" = 1, "10" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "readUleb"
+values = { "128" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "seal"
+values = { "64" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "stateDecodeAs"
+values = { "10" = 2, "32" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "stateIdentity"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "uleb"
+values = { "128" = 4 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "v02Library"
+values = { "9991" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "v02WindowArchive"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "v02WindowPrefix"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "v02WindowSuffix"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "v03Library"
+values = { "18611" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "v03WindowArchive"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "v03WindowSuffix"
+values = { "2" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "v04Library"
+values = { "29285" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "v04ProfileWord"
+values = { "1048576" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "v04ProfiledArchive"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "v04ProfiledDecodeAs"
+values = { "10" = 2, "32" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "windowArchive"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "windowBasis"
+values = { "32" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "windowDecode"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "windowDecodeAs"
+values = { "32" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "windowDecodeV02"
+values = { "32" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "windowDecodeV03"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "windowDecodeV03As"
+values = { "32" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "windowMaterialize"
+values = { "6" = 1, "7" = 1, "32" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "windowPrefix"
+values = { "2" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "windowSuffix"
+values = { "2" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Archive.lex.tex"
+item = "x86Dense"
+values = { "256" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzDecode.lex.tex"
+item = "afterLiteral"
+values = { "3" = 1, "4" = 1, "6" = 1, "10" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzDecode.lex.tex"
+item = "afterMatch"
+values = { "7" = 2, "10" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzDecode.lex.tex"
+item = "afterRep"
+values = { "7" = 1, "8" = 1, "11" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzDecode.lex.tex"
+item = "afterShort"
+values = { "7" = 1, "9" = 1, "11" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzDecode.lex.tex"
+item = "decodeBit"
+values = { "2" = 2, "32" = 2, "2048" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzDecode.lex.tex"
+item = "decodeWith"
+values = { "16384" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzDecode.lex.tex"
+item = "directLoop"
+values = { "2" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzDecode.lex.tex"
+item = "distance"
+values = { "2" = 3, "3" = 2, "4" = 3, "6" = 1, "14" = 1, "16" = 1, "64" = 1, "6216" = 1, "6472" = 1, "6587" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzDecode.lex.tex"
+item = "emit"
+values = { "16384" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzDecode.lex.tex"
+item = "lengthCode"
+values = { "2" = 1, "3" = 2, "8" = 2, "16" = 1, "18" = 1, "34" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzDecode.lex.tex"
+item = "literal"
+values = { "7" = 1, "8" = 2, "32" = 1, "72" = 1, "256" = 1, "768" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzDecode.lex.tex"
+item = "matchedLoop"
+values = { "2" = 2, "256" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzDecode.lex.tex"
+item = "newMatch"
+values = { "2" = 1, "6603" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzDecode.lex.tex"
+item = "normalize"
+values = { "256" = 2, "16777216" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzDecode.lex.tex"
+item = "outAt"
+values = { "16384" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzDecode.lex.tex"
+item = "pow2"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzDecode.lex.tex"
+item = "prob"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzDecode.lex.tex"
+item = "readLength"
+values = { "256" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzDecode.lex.tex"
+item = "rep"
+values = { "24" = 1, "36" = 1, "48" = 1, "60" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzDecode.lex.tex"
+item = "repMatch"
+values = { "2" = 1, "7149" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzDecode.lex.tex"
+item = "reverseLoop"
+values = { "2" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzDecode.lex.tex"
+item = "startWith"
+values = { "2" = 1, "8" = 1, "9" = 1, "10" = 1, "11" = 1, "12" = 1, "13" = 2, "64" = 1, "256" = 3, "1024" = 1, "4294967295" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzDecode.lex.tex"
+item = "step"
+values = { "12" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzDecode.lex.tex"
+item = "treeLoop"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "bestRep"
+values = { "2" = 1, "3" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "bitOf"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "directEnc"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "distEnc"
+values = { "2" = 3, "3" = 2, "4" = 3, "6" = 1, "14" = 1, "16" = 2, "64" = 1, "6216" = 1, "6472" = 1, "6587" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "emitLiteral"
+values = { "7" = 1, "8" = 2, "32" = 1, "72" = 1, "768" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "emitMatch"
+values = { "2" = 2, "12" = 1, "6603" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "emitRep"
+values = { "2" = 3, "12" = 1, "24" = 2, "36" = 2, "48" = 1, "60" = 1, "7149" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "encodeBit"
+values = { "2" = 3, "32" = 2, "2048" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "encodeWith"
+values = { "8" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "find"
+values = { "2" = 2, "3" = 1, "4" = 2, "48" = 1, "64" = 1, "4096" = 1, "69632" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "findLoop"
+values = { "4" = 1, "64" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "hash4At"
+values = { "2" = 1, "3" = 1, "256" = 1, "65536" = 1, "16777216" = 1, "2654435761" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "hashAt"
+values = { "2" = 1, "256" = 1, "65536" = 3, "2654435761" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "header"
+values = { "256" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "insert"
+values = { "2" = 1, "3" = 1, "4" = 4, "4096" = 1, "69632" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "lenEnc"
+values = { "2" = 1, "3" = 2, "8" = 3, "16" = 2, "18" = 1, "34" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "limitAt"
+values = { "273" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "litMatched"
+values = { "2" = 2, "256" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "log2Loop"
+values = { "2" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "norm"
+values = { "256" = 1, "16777216" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "revEnc"
+values = { "2" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "shiftLow"
+values = { "255" = 1, "256" = 5, "16777216" = 3, "4278190080" = 1, "4294967296" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "slotOf"
+values = { "2" = 1, "4" = 1, "64" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "start"
+values = { "2" = 2, "4" = 5, "13" = 1, "16" = 3, "22" = 2, "32" = 1, "64" = 3, "1024" = 1, "69632" = 1, "278528" = 1, "4294967295" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "step"
+values = { "2" = 4, "4" = 1, "128" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/LzEncode.lex.tex"
+item = "treeEnc"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "bucketRoom"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "decodeBit"
+values = { "4" = 1, "4096" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "decodeBitLoop721"
+values = { "255" = 1, "256" = 3, "16777216" = 2, "4294967296" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "decodeByte"
+values = { "8" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "decodeStart"
+values = { "2" = 2, "3" = 2, "4" = 2, "5" = 2, "6" = 2, "7" = 2, "8" = 1, "256" = 2, "65536" = 2, "16777216" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "decodeStreams"
+values = { "2" = 2, "3" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "decodeStreamsPart1255Part1268Part1280Part1293Part1306Loop1327"
+values = { "2" = 2, "3" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "decodeWarmPart780"
+values = { "2" = 2, "3" = 2, "4" = 2, "5" = 2, "6" = 2, "7" = 2, "8" = 1, "256" = 2, "65536" = 2, "16777216" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "hash"
+values = { "4096" = 1, "32768" = 2, "695872825" = 1, "739982445" = 1, "2654435761" = 1, "4294967296" = 6 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "mbFor"
+values = { "2" = 1, "22" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "mbOf"
+values = { "32" = 1, "67108864" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "mergeBucketPart1040"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "mergeBucketPart1040Loop1045TLoop1066"
+values = { "2" = 1, "3" = 1, "4" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "mergeBucketPart1040Loop1045TLoop1066Part1078Part1087"
+values = { "2" = 1, "3" = 1, "4" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "mergeBucketPart1040TLoop1103"
+values = { "2" = 2, "3" = 1, "4" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "mergeBucketPart1040TLoop1103Part1115"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "mergeBucketPart1040TLoop1131"
+values = { "2" = 1, "3" = 1, "4" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "mergeLast"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "mergeSlotPart1189Part1203"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "mergeWeightPart1178"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "newByte"
+values = { "2" = 4, "3" = 2, "4" = 5, "5" = 1, "7" = 1, "8" = 2, "16" = 8, "20" = 2, "24" = 2, "31" = 2, "32" = 6, "63" = 2, "64" = 8, "85" = 1, "512" = 2, "65535" = 4, "131072" = 1, "262144" = 1, "789269543" = 9, "4294967296" = 9 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "newBytePart176"
+values = { "2" = 3, "4" = 1, "256" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "newBytePart176Part183"
+values = { "2" = 1, "3" = 1, "4" = 1, "256" = 1, "65536" = 1, "16777216" = 2, "50331648" = 1, "4294967296" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "newBytePart176Part183Part200"
+values = { "5" = 1, "6" = 1, "7" = 1, "8" = 1, "9" = 1, "10" = 1, "65536" = 4, "4294967296" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "newBytePart176Part183Part200Part219"
+values = { "2" = 1, "11" = 1, "12" = 1, "13" = 1, "14" = 1, "15" = 3, "16" = 1, "256" = 6, "512" = 2, "65536" = 7, "262144" = 1, "8388608" = 1, "16777216" = 1, "67108864" = 1, "268435456" = 1, "1426063360" = 1, "1996488704" = 1, "2147483648" = 1, "4294967296" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "newBytePart176Part183Part200Part219Part238"
+values = { "17" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "newBytePart176Part183Part200Part219Part238Loop239"
+values = { "16777619" = 1, "4294967296" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "newByteTPart69"
+values = { "2" = 1, "6" = 1, "7" = 2, "32" = 1, "1024" = 1, "262144" = 1, "789269543" = 2, "4294967296" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "newByteTTPart117"
+values = { "2" = 1, "4" = 1, "32" = 1, "1024" = 1, "262144" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "newGroupLoop966"
+values = { "2" = 1, "3" = 1, "4" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "pow2"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "predict"
+values = { "2" = 2, "4" = 6, "7" = 2, "16" = 2, "17" = 2, "256" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "predictLoop374"
+values = { "2" = 1, "16" = 1, "256" = 1, "2048" = 1, "32768" = 1, "65536" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "predictPart399"
+values = { "2" = 1, "7" = 2, "15" = 1, "16" = 1, "17" = 1, "18" = 1, "19" = 1, "256" = 3, "1024" = 1, "2048" = 4, "2304" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "predictPart399Part420"
+values = { "2" = 2, "7" = 2, "15" = 1, "16" = 1, "20" = 1, "256" = 3, "1024" = 1, "2048" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "predictPart399Part420Part435"
+values = { "2" = 2, "3" = 1, "16" = 1, "21" = 1, "22" = 1, "23" = 1, "256" = 1, "1792" = 1, "2048" = 5, "2304" = 1, "65536" = 1, "524288" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "predictPart399Part420Part435Part450Part463"
+values = { "8" = 2, "24" = 4, "256" = 4, "2048" = 1, "4194304" = 1, "206158430208" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "predictPart399Part420Part435Part450Part463Loop467"
+values = { "16777216" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "predictPart399Part420Part435Part450Part463Loop467Part477"
+values = { "16777216" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "predictPart399Part420Part435Part450Part463Part490"
+values = { "2047" = 8, "2048" = 6, "65535" = 4, "65536" = 8, "4194304" = 2, "206158430208" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "predictPart399Part420Part435Part450Part463Part490Part497"
+values = { "2047" = 4, "2048" = 2, "21846" = 1, "65535" = 2, "65536" = 5 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "predictPart399Part420Part435Part450Part463Part490Part497Part505"
+values = { "128" = 2, "4095" = 4 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "predictPart399Part420Part435Part450Part463Part490Part497Part505Part514"
+values = { "16" = 2, "32" = 2, "33" = 1, "64" = 2, "128" = 5, "256" = 1, "2048" = 1, "4095" = 4, "65520" = 2, "65536" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "predictPart399Part420Part435Part450Part463Part490Part497Part505Part514Part523"
+values = { "33" = 1, "128" = 4, "4095" = 2, "65536" = 1, "16777216" = 1, "789269543" = 1, "4294967296" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "predictPart399Part420Part435Part450Part463Part490Part497Part505Part514Part523Part530"
+values = { "2" = 4, "4" = 4, "16" = 2, "32" = 2, "64" = 2, "128" = 3, "2048" = 1, "4095" = 2, "4096" = 4, "65520" = 2, "65536" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "predictTLoop335"
+values = { "2" = 3, "16" = 5, "16777216" = 1, "789269543" = 1, "4294967296" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "predictTLoop335TPart342"
+values = { "16" = 1, "256" = 4 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "runProfile"
+values = { "2" = 2, "3" = 4, "4" = 3, "40" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "runStreams"
+values = { "2" = 2, "3" = 4, "4" = 2, "40" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "runWarm"
+values = { "2" = 2, "3" = 4, "4" = 3, "40" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "runWith"
+values = { "131071" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "setup"
+values = { "2" = 1, "8" = 1, "16" = 1, "22" = 2, "32" = 2, "64" = 2, "1048576" = 2, "67108864" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "setupLoop246"
+values = { "1024" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "setupPart261"
+values = { "64" = 1, "128" = 1, "4095" = 1, "4096" = 3, "4294967295" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "setupPart261Loop277"
+values = { "4095" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "setupPart261Loop282"
+values = { "2" = 2, "1417216" = 2, "15360000" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "setupPart261Loop290"
+values = { "8388608" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "setupPart261Part295"
+values = { "2" = 1, "4" = 2, "7" = 2, "131072" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "setupPart261Part295Loop296"
+values = { "2" = 1, "3" = 1, "4" = 1, "5" = 1, "7" = 5, "789269543" = 5, "4294967296" = 5 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "setupPart261Part295Loop296Part303"
+values = { "6" = 1, "7" = 4, "32" = 1, "789269543" = 2, "4294967296" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "setupPart261Part295TLoop312"
+values = { "2" = 1, "3" = 1, "4" = 5, "85" = 1, "789269543" = 4, "4294967296" = 4 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "setupPart261Part295TLoop312Part319"
+values = { "4" = 1, "32" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "spaceOf"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "squash"
+values = { "2" = 4, "64" = 1, "128" = 4 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "tbFor"
+values = { "8" = 1, "16" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "tbLoop"
+values = { "1024" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "tbOf"
+values = { "64" = 1, "1048576" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "update"
+values = { "16" = 2, "32" = 2, "63" = 1, "64" = 2, "128" = 2, "4095" = 2, "65520" = 2, "65536" = 3, "65598" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "updatePart545"
+values = { "16" = 2, "32" = 2, "63" = 1, "64" = 2, "128" = 2, "4095" = 2, "65520" = 2, "65536" = 3, "65598" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "updatePart545Part554"
+values = { "2" = 8, "3" = 3, "17" = 1, "256" = 6, "65535" = 6, "65536" = 6, "131072" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "updatePart545Part554Loop559"
+values = { "2" = 2, "3" = 1, "256" = 2, "32768" = 1, "65535" = 2, "65536" = 3, "131072" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "updatePart545Part554Loop559TPart566"
+values = { "127" = 2, "256" = 1, "32768" = 1, "65536" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "updatePart545Part554Part615"
+values = { "8" = 2, "24" = 3, "256" = 4, "4096" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "updatePart545Part554Part615Part622"
+values = { "2" = 1, "8" = 1, "24" = 2, "256" = 1, "4096" = 1, "425984" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "updatePart545Part554Part615Part622Loop624"
+values = { "2048" = 7, "65535" = 2, "65536" = 4, "8388608" = 2, "16777216" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "updatePart545Part554Part615Part622Loop624Part631"
+values = { "16777216" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "updatePart545Part554Part615Part622Loop624Part631Part640"
+values = { "65535" = 2, "65536" = 4, "8388608" = 2, "16777216" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "updatePart545Part554Part615Part622Loop624Part631Part640Part649"
+values = { "65535" = 2, "65536" = 4, "8388608" = 2, "16777216" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "updatePart545Part554Part615Part622TPart672"
+values = { "2" = 1, "32" = 2, "65" = 1, "90" = 1, "97" = 1, "122" = 1, "128" = 1, "256" = 2, "16777216" = 1, "4294967296" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "updatePart545Part554Part615Part622TPart672Part690"
+values = { "65535" = 1, "65536" = 1, "4294967295" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "updatePart545Part554TPart581"
+values = { "127" = 2, "256" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "updatePart545Part554TPart595"
+values = { "127" = 2, "256" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "updatePart545Part554TPart608"
+values = { "127" = 2, "256" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "warmStateLoop759"
+values = { "8" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmDecode.lex.tex"
+item = "warmStateLoop759Loop761"
+values = { "2" = 1, "7" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "bucketRoom"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "countStreams"
+values = { "2" = 3, "3" = 3, "4" = 2, "40" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "encode"
+values = { "16777216" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "encodeBit"
+values = { "4" = 1, "8" = 2, "24" = 3, "256" = 4, "2047" = 12, "2048" = 39, "4096" = 1, "65535" = 6, "65536" = 12, "4194304" = 33, "206158430208" = 33 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "encodeBitLoop746"
+values = { "255" = 1, "256" = 2, "16777216" = 3, "4294967296" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "encodeBitTPart720"
+values = { "17" = 1, "4095" = 8, "4096" = 1, "21846" = 1, "65536" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "encodeBitTPart720Loop723"
+values = { "2" = 1, "2047" = 8, "2048" = 26, "65535" = 4, "65536" = 8, "4194304" = 22, "16777216" = 3, "197568495616" = 22 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "encodeBitTPart720Loop723TPart730"
+values = { "2047" = 4, "2048" = 13, "4095" = 24, "4096" = 3, "21846" = 1, "65535" = 2, "65536" = 5, "4194304" = 11, "197568495616" = 11, "70368744177664" = 2, "281474976710656" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "encodeByte"
+values = { "8" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "encodeByteLoop756"
+values = { "2" = 1, "7" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "encodeLearn"
+values = { "17" = 1, "4095" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "encodeLearnLoop791"
+values = { "8" = 1, "15" = 1, "16" = 1, "256" = 1, "3072" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "encodeLearnLoop791Loop798"
+values = { "2" = 1, "32768" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "encodeLearnLoop791Loop805"
+values = { "2" = 1, "7" = 1, "32768" = 1, "65536" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "encodeLearnLoop821"
+values = { "2" = 1, "70368744177664" = 2, "281474976710656" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "encodeWarmPart847Part859"
+values = { "16777216" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "finish"
+values = { "2" = 1, "4" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "hash"
+values = { "4096" = 1, "32768" = 2, "695872825" = 1, "739982445" = 1, "2654435761" = 1, "4294967296" = 6 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "learnProfile"
+values = { "2" = 1, "64" = 1, "4294967296" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "mbFor"
+values = { "2" = 1, "22" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "mbOf"
+values = { "32" = 1, "67108864" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "mergeBucketPart1103"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "mergeBucketPart1103Loop1108TLoop1129"
+values = { "2" = 1, "3" = 1, "4" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "mergeBucketPart1103Loop1108TLoop1129Part1141Part1150"
+values = { "2" = 1, "3" = 1, "4" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "mergeBucketPart1103TLoop1166"
+values = { "2" = 2, "3" = 1, "4" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "mergeBucketPart1103TLoop1166Part1178"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "mergeBucketPart1103TLoop1194"
+values = { "2" = 1, "3" = 1, "4" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "mergeLast"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "mergeSlotPart1252Part1266"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "mergeWeightPart1241"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "newByte"
+values = { "2" = 4, "3" = 2, "4" = 5, "5" = 1, "7" = 1, "8" = 2, "16" = 8, "20" = 2, "24" = 2, "31" = 2, "32" = 6, "63" = 2, "64" = 8, "85" = 1, "512" = 2, "65535" = 4, "131072" = 1, "262144" = 1, "789269543" = 9, "4294967296" = 9 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "newBytePart176"
+values = { "2" = 3, "4" = 1, "256" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "newBytePart176Part183"
+values = { "2" = 1, "3" = 1, "4" = 1, "256" = 1, "65536" = 1, "16777216" = 2, "50331648" = 1, "4294967296" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "newBytePart176Part183Part200"
+values = { "5" = 1, "6" = 1, "7" = 1, "8" = 1, "9" = 1, "10" = 1, "65536" = 4, "4294967296" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "newBytePart176Part183Part200Part219"
+values = { "2" = 1, "11" = 1, "12" = 1, "13" = 1, "14" = 1, "15" = 3, "16" = 1, "256" = 6, "512" = 2, "65536" = 7, "262144" = 1, "8388608" = 1, "16777216" = 1, "67108864" = 1, "268435456" = 1, "1426063360" = 1, "1996488704" = 1, "2147483648" = 1, "4294967296" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "newBytePart176Part183Part200Part219Part238"
+values = { "17" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "newBytePart176Part183Part200Part219Part238Loop239"
+values = { "16777619" = 1, "4294967296" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "newByteTPart69"
+values = { "2" = 1, "6" = 1, "7" = 2, "32" = 1, "1024" = 1, "262144" = 1, "789269543" = 2, "4294967296" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "newByteTTPart117"
+values = { "2" = 1, "4" = 1, "32" = 1, "1024" = 1, "262144" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "newGroupLoop1029"
+values = { "2" = 1, "3" = 1, "4" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "pow2"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "predict"
+values = { "2" = 2, "4" = 6, "7" = 2, "16" = 2, "17" = 2, "256" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "predictLoop367"
+values = { "2" = 1, "16" = 1, "256" = 1, "2048" = 1, "32768" = 1, "65536" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "predictPart392"
+values = { "2" = 1, "7" = 2, "15" = 1, "16" = 1, "17" = 1, "18" = 1, "19" = 1, "256" = 3, "1024" = 1, "2048" = 4, "2304" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "predictPart392Part413"
+values = { "2" = 2, "7" = 2, "15" = 1, "16" = 1, "20" = 1, "256" = 3, "1024" = 1, "2048" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "predictPart392Part413Part428"
+values = { "2" = 2, "3" = 1, "16" = 1, "21" = 1, "22" = 1, "23" = 1, "256" = 1, "1792" = 1, "2048" = 5, "2304" = 1, "65536" = 1, "524288" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "predictPart392Part413Part428Part443Part456"
+values = { "8" = 2, "24" = 4, "256" = 4, "2048" = 1, "4194304" = 1, "206158430208" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "predictPart392Part413Part428Part443Part456Loop460"
+values = { "16777216" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "predictPart392Part413Part428Part443Part456Loop460Part470"
+values = { "16777216" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "predictPart392Part413Part428Part443Part456Part483"
+values = { "2047" = 8, "2048" = 6, "65535" = 4, "65536" = 8, "4194304" = 2, "206158430208" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "predictPart392Part413Part428Part443Part456Part483Part490"
+values = { "2047" = 4, "2048" = 2, "21846" = 1, "65535" = 2, "65536" = 5 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "predictPart392Part413Part428Part443Part456Part483Part490Part498"
+values = { "128" = 2, "4095" = 4 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "predictPart392Part413Part428Part443Part456Part483Part490Part498Part507"
+values = { "16" = 2, "32" = 2, "33" = 1, "64" = 2, "128" = 5, "256" = 1, "2048" = 1, "4095" = 4, "65520" = 2, "65536" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "predictPart392Part413Part428Part443Part456Part483Part490Part498Part507Part516"
+values = { "33" = 1, "128" = 4, "4095" = 2, "65536" = 1, "16777216" = 1, "789269543" = 1, "4294967296" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "predictPart392Part413Part428Part443Part456Part483Part490Part498Part507Part516Part523"
+values = { "2" = 4, "4" = 4, "16" = 2, "32" = 2, "64" = 2, "128" = 3, "2048" = 1, "4095" = 2, "4096" = 4, "65520" = 2, "65536" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "predictTLoop328"
+values = { "2" = 3, "16" = 5, "16777216" = 1, "789269543" = 1, "4294967296" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "predictTLoop328TPart335"
+values = { "16" = 1, "256" = 4 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "runProfile"
+values = { "2" = 1, "64" = 1, "4294967296" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "runStreams"
+values = { "2" = 3, "3" = 3, "4" = 2, "40" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "runWarm"
+values = { "2" = 1, "64" = 1, "4294967296" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "runWith"
+values = { "131071" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "setup"
+values = { "2" = 1, "8" = 1, "16" = 1, "22" = 2, "32" = 2, "64" = 2, "1048576" = 2, "67108864" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "setupLoop246"
+values = { "1024" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "setupPart261"
+values = { "64" = 1, "128" = 1, "4095" = 1, "4096" = 3, "4294967295" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "setupPart261Loop277"
+values = { "4095" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "setupPart261Loop282"
+values = { "2" = 2, "1417216" = 2, "15360000" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "setupPart261Loop290"
+values = { "8388608" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "setupPart261Part295"
+values = { "2" = 1, "4" = 2, "7" = 2, "131072" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "setupPart261Part295Loop296"
+values = { "2" = 1, "3" = 1, "4" = 1, "5" = 1, "7" = 5, "789269543" = 5, "4294967296" = 5 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "setupPart261Part295Loop296Part303"
+values = { "6" = 1, "7" = 4, "32" = 1, "789269543" = 2, "4294967296" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "setupPart261Part295TLoop312"
+values = { "2" = 1, "3" = 1, "4" = 5, "85" = 1, "789269543" = 4, "4294967296" = 4 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "setupPart261Part295TLoop312Part319"
+values = { "4" = 1, "32" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "spaceOf"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "squash"
+values = { "2" = 4, "64" = 1, "128" = 4 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "start"
+values = { "2" = 1, "3" = 3, "4" = 2, "40" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "tbFor"
+values = { "8" = 1, "16" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "tbLoop"
+values = { "1024" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "tbOf"
+values = { "64" = 1, "1048576" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "update"
+values = { "16" = 2, "32" = 2, "63" = 1, "64" = 2, "128" = 2, "4095" = 2, "65520" = 2, "65536" = 3, "65598" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "updatePart546"
+values = { "16" = 2, "32" = 2, "63" = 1, "64" = 2, "128" = 2, "4095" = 2, "65520" = 2, "65536" = 3, "65598" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "updatePart546Part555"
+values = { "2" = 8, "3" = 3, "17" = 1, "256" = 6, "65535" = 6, "65536" = 6, "131072" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "updatePart546Part555Loop560"
+values = { "2" = 2, "3" = 1, "256" = 2, "32768" = 1, "65535" = 2, "65536" = 3, "131072" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "updatePart546Part555Loop560TPart567"
+values = { "127" = 2, "256" = 1, "32768" = 1, "65536" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "updatePart546Part555Part616"
+values = { "8" = 2, "24" = 3, "256" = 4, "4096" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "updatePart546Part555Part616Part623"
+values = { "2" = 1, "8" = 1, "24" = 2, "256" = 1, "4096" = 1, "425984" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "updatePart546Part555Part616Part623Loop625"
+values = { "2048" = 7, "65535" = 2, "65536" = 4, "8388608" = 2, "16777216" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "updatePart546Part555Part616Part623Loop625Part632"
+values = { "16777216" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "updatePart546Part555Part616Part623Loop625Part632Part641"
+values = { "65535" = 2, "65536" = 4, "8388608" = 2, "16777216" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "updatePart546Part555Part616Part623Loop625Part632Part641Part650"
+values = { "65535" = 2, "65536" = 4, "8388608" = 2, "16777216" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "updatePart546Part555Part616Part623TPart673"
+values = { "2" = 1, "32" = 2, "65" = 1, "90" = 1, "97" = 1, "122" = 1, "128" = 1, "256" = 2, "16777216" = 1, "4294967296" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "updatePart546Part555Part616Part623TPart673Part691"
+values = { "65535" = 1, "65536" = 1, "4294967295" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "updatePart546Part555TPart582"
+values = { "127" = 2, "256" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "updatePart546Part555TPart596"
+values = { "127" = 2, "256" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "updatePart546Part555TPart609"
+values = { "127" = 2, "256" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "warmStateLoop826"
+values = { "8" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/NcmEncode.lex.tex"
+item = "warmStateLoop826Loop828"
+values = { "2" = 1, "7" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Table.lex.tex"
+item = "byteOf"
+values = { "2" = 10, "4" = 2, "8" = 2, "16" = 2, "32" = 2, "64" = 2, "128" = 2, "256" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Table.lex.tex"
+item = "getLoop"
+values = { "256" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/Table.lex.tex"
+item = "setLoop"
+values = { "256" = 2 }
+
+[[item]]
+file = "client/src/Uorc/Codec/X86.lex.tex"
+item = "filter"
+values = { "4" = 5, "5" = 1, "6" = 1, "10" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/X86.lex.tex"
+item = "filterLoop11"
+values = { "2" = 2, "3" = 2, "4" = 5, "5" = 5, "6" = 1, "232" = 1, "233" = 1, "255" = 6, "256" = 1, "65536" = 1, "16777216" = 1, "33554432" = 1, "4294967296" = 3 }
+
+[[item]]
+file = "client/src/Uorc/Codec/X86.lex.tex"
+item = "filterLoop11FTPart24"
+values = { "4" = 4, "5" = 1, "10" = 2, "16777216" = 1, "4261412864" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/X86.lex.tex"
+item = "filterLoop11FTPart24Loop28"
+values = { "8" = 1, "256" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/X86.lex.tex"
+item = "hash"
+values = { "4096" = 1, "32768" = 2, "695872825" = 1, "739982445" = 1, "2654435761" = 1, "4294967296" = 6 }
+
+[[item]]
+file = "client/src/Uorc/Codec/X86.lex.tex"
+item = "hits"
+values = { "4" = 1, "10" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/X86.lex.tex"
+item = "pow2"
+values = { "2" = 1 }
+
+[[item]]
+file = "client/src/Uorc/Codec/X86.lex.tex"
+item = "squash"
+values = { "2" = 4, "64" = 1, "128" = 4 }
+
+[[item]]
+file = "client/src/Uorc/Codec/X86.lex.tex"
+item = "start"
+values = { "8" = 1, "40" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "BASIS_ID"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "Chain"
+values = { "32" = 1, "64" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "Chain::finish"
+values = { "2" = 1, "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "Chain::new"
+values = { "64" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "Chain::update"
+values = { "64" = 3 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "Codec::ALL"
+values = { "3" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "Era::ALL"
+values = { "4" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "Era::identity"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "SEAL"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "WINDOW"
+facet = "windowFrames"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "basis_of"
+values = { "6" = 2, "8" = 2, "32" = 2 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "chain"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "chain_block"
+values = { "32" = 2 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "chain_parts"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "conditional_fields"
+values = { "6" = 2, "7" = 1, "8" = 2, "32" = 3 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "deep_window_len"
+values = { "3" = 6 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "entry_archive"
+values = { "6" = 1, "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "fast_decode"
+values = { "6" = 3, "7" = 4, "8" = 2, "32" = 2 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "frame_label"
+values = { "2" = 1, "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "frame_labels"
+values = { "3" = 1, "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "header"
+values = { "2" = 1, "16" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "hex_len"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "hex_literal"
+values = { "2" = 1, "16" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "hex_value"
+values = { "10" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "linked_header"
+values = { "6" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "linked_length"
+values = { "4" = 1, "8" = 1, "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "profile_template"
+values = { "2" = 2 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "push_uleb"
+values = { "7" = 1, "127" = 1, "128" = 2 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "raw_length"
+values = { "8" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "read_uleb"
+values = { "7" = 1, "127" = 1, "128" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "reference_archive"
+values = { "6" = 1, "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "reference_length"
+values = { "8" = 1, "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "reference_of"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "reference_target"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "state_archive"
+values = { "6" = 1, "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "template"
+values = { "2" = 7 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "uleb_len"
+values = { "7" = 1, "128" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "window_archive"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "window_archive_profile"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "window_decode"
+values = { "6" = 3, "7" = 1, "8" = 2, "32" = 3 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "window_identity"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "window_identity_over"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "window_len"
+values = { "2" = 4, "8" = 1, "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/archive.rs"
+item = "window_profile_template"
+values = { "2" = 1, "3" = 6, "4" = 1, "5" = 1, "6" = 2, "8" = 1, "27" = 1, "30" = 1 }
+
+[[item]]
+file = "crates/uorc/src/bin/uorc.rs"
+item = "<Failure as From>::from"
+values = { "4" = 1, "5" = 1, "6" = 1, "7" = 1 }
+
+[[item]]
+file = "crates/uorc/src/bin/uorc.rs"
+item = "<Files as Read>::read"
+values = { "20" = 1 }
+
+[[item]]
+file = "crates/uorc/src/bin/uorc.rs"
+item = "IO_ERROR"
+values = { "3" = 1 }
+
+[[item]]
+file = "crates/uorc/src/bin/uorc.rs"
+item = "Pending::create"
+values = { "1000" = 1 }
+
+[[item]]
+file = "crates/uorc/src/bin/uorc.rs"
+item = "Restore::end"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/bin/uorc.rs"
+item = "Restore::open_file"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/bin/uorc.rs"
+item = "Restore::piece"
+values = { "2" = 2 }
+
+[[item]]
+file = "crates/uorc/src/bin/uorc.rs"
+item = "USAGE_ERROR"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/bin/uorc.rs"
+item = "compress_tree"
+values = { "20" = 1 }
+
+[[item]]
+file = "crates/uorc/src/bin/uorc.rs"
+item = "describe"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/bin/uorc.rs"
+item = "executable"
+values = { "73" = 1 }
+
+[[item]]
+file = "crates/uorc/src/bin/uorc.rs"
+item = "inspect"
+values = { "4" = 1 }
+
+[[item]]
+file = "crates/uorc/src/bin/uorc.rs"
+item = "open_input"
+values = { "20" = 1 }
+
+[[item]]
+file = "crates/uorc/src/bin/uorc.rs"
+item = "open_stream"
+values = { "20" = 3 }
+
+[[item]]
+file = "crates/uorc/src/bin/uorc.rs"
+item = "peek_tree"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/bin/uorc.rs"
+item = "set_executable"
+values = { "73" = 1 }
+
+[[item]]
+file = "crates/uorc/src/bin/uorc.rs"
+item = "transform"
+values = { "20" = 2 }
+
+[[item]]
+file = "crates/uorc/src/chunk.rs"
+item = "ANCHOR_BITS"
+values = { "14" = 1 }
+
+[[item]]
+file = "crates/uorc/src/chunk.rs"
+item = "Frame"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/chunk.rs"
+item = "Framer"
+values = { "32" = 3 }
+
+[[item]]
+file = "crates/uorc/src/chunk.rs"
+item = "Framer::emit"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/chunk.rs"
+item = "Framer::step"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/chunk.rs"
+item = "Framer::take"
+values = { "32" = 2 }
+
+[[item]]
+file = "crates/uorc/src/chunk.rs"
+item = "GEAR"
+values = { "27" = 1, "30" = 1, "31" = 1, "256" = 3, "10723151780598845931" = 1, "11400714819323198485" = 1, "13787848793156543929" = 1 }
+
+[[item]]
+file = "crates/uorc/src/chunk.rs"
+item = "INDEX_UNITS"
+values = { "20" = 1 }
+
+[[item]]
+file = "crates/uorc/src/chunk.rs"
+item = "Index"
+values = { "32" = 2 }
+
+[[item]]
+file = "crates/uorc/src/chunk.rs"
+item = "Index::add"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/chunk.rs"
+item = "Index::run"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/chunk.rs"
+item = "MAX_UNIT"
+values = { "10" = 1, "128" = 1 }
+
+[[item]]
+file = "crates/uorc/src/chunk.rs"
+item = "MIN_RUN"
+values = { "10" = 1, "64" = 1 }
+
+[[item]]
+file = "crates/uorc/src/chunk.rs"
+item = "MIN_UNIT"
+values = { "4" = 1, "10" = 1 }
+
+[[item]]
+file = "crates/uorc/src/chunk.rs"
+item = "OCCURRENCES"
+values = { "4" = 1 }
+
+[[item]]
+file = "crates/uorc/src/chunk.rs"
+item = "next_unit"
+values = { "64" = 1 }
+
+[[item]]
+file = "crates/uorc/src/chunk.rs"
+item = "runs"
+values = { "32" = 3 }
+
+[[item]]
+file = "crates/uorc/src/frame.rs"
+item = "BASIS_LEN"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/frame.rs"
+item = "HEADER_HINT"
+values = { "3" = 1, "8" = 1, "10" = 1 }
+
+[[item]]
+file = "crates/uorc/src/frame.rs"
+item = "Info"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/frame.rs"
+item = "Info::to_json"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/frame.rs"
+item = "MAGIC"
+values = { "4" = 1 }
+
+[[item]]
+file = "crates/uorc/src/frame.rs"
+item = "Reader::uleb"
+values = { "7" = 1, "63" = 1, "64" = 1, "127" = 1, "128" = 1 }
+
+[[item]]
+file = "crates/uorc/src/frame.rs"
+item = "head"
+values = { "4" = 1 }
+
+[[item]]
+file = "crates/uorc/src/frame.rs"
+item = "relabel"
+values = { "8" = 1 }
+
+[[item]]
+file = "crates/uorc/src/lib.rs"
+item = "DEFAULT_DECODE_WORK"
+values = { "40" = 1 }
+
+[[item]]
+file = "crates/uorc/src/lib.rs"
+item = "Prepared"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/lib.rs"
+item = "Prepared::settle_pair"
+values = { "2" = 2 }
+
+[[item]]
+file = "crates/uorc/src/lib.rs"
+item = "REFERENCE_STACK"
+values = { "30" = 1 }
+
+[[item]]
+file = "crates/uorc/src/lib.rs"
+item = "WarmInput"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/lib.rs"
+item = "decode_schedule"
+values = { "8" = 1, "32" = 3 }
+
+[[item]]
+file = "crates/uorc/src/lib.rs"
+item = "next_archive"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/lib.rs"
+item = "reference_or_raw"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/lib.rs"
+item = "scan"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/lib.rs"
+item = "step_streams"
+values = { "16" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "<Scalar as Kernel>::dot"
+values = { "3" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "<Scalar as Kernel>::train"
+values = { "2" = 1, "3" = 1, "16" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "<u16 as Spare>::HELD"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "<u32 as Spare>::HELD"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "APM2_BITS"
+facet = "refinementMapRows"
+values = { "16" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "APM_ROW"
+values = { "33" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Apm::learn"
+values = { "2" = 1, "16" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Apm::new"
+values = { "16" = 2, "128" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Apm::refine"
+values = { "6" = 1, "7" = 1, "23" = 1, "127" = 1, "128" = 1, "2048" = 1, "4096" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Bucket"
+values = { "16" = 1, "64" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Coder::code"
+values = { "4" = 1, "8" = 2, "24" = 2, "255" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Coder::finish"
+values = { "4" = 1, "24" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Coder::idle"
+values = { "4" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Coder::new"
+values = { "2" = 1, "5" = 1, "16" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "FULL"
+values = { "20" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "F_REP"
+values = { "18" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "F_SEL"
+values = { "19" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "F_SHORT"
+values = { "17" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "INFORMATION_BITS"
+values = { "24" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Kernel::dot"
+values = { "3" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Kernel::gains"
+values = { "2" = 2, "3" = 2 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Kernel::train"
+values = { "3" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Kernel::train1"
+values = { "16" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "MATCH_FIELD"
+values = { "31" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "MATCH_SHIFT"
+values = { "26" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Model"
+values = { "3" = 1, "9" = 1, "64" = 4, "128" = 3, "256" = 2 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Model::advance"
+values = { "8" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Model::agree"
+values = { "1024" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Model::c13"
+values = { "9" = 1, "15" = 1, "16" = 1, "255" = 1, "256" = 1, "16711935" = 1, "1426063360" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Model::end_byte"
+values = { "8" = 2, "24" = 1, "32" = 1, "128" = 1, "255" = 1, "65536" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Model::learn"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Model::match_key_by"
+values = { "7" = 1, "32" = 1, "789269543" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Model::mix"
+values = { "2" = 2, "4" = 2, "8" = 3, "12" = 2, "16" = 6, "32" = 1, "255" = 2, "256" = 2, "2047" = 8, "2048" = 3, "4095" = 2, "6144" = 2, "21846" = 2, "16777215" = 1, "789269543" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Model::mix_update"
+values = { "12" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Model::new"
+values = { "2" = 3, "3" = 5, "4" = 1, "7" = 1, "9" = 3, "12" = 1, "16" = 3, "64" = 3, "128" = 2, "256" = 4, "2048" = 2, "5536" = 1, "32768" = 1, "60000" = 1, "65536" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Model::new_byte"
+values = { "2" = 1, "3" = 1, "4" = 3, "5" = 1, "6" = 1, "7" = 3, "8" = 1, "63" = 1, "256" = 1, "65535" = 2 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Model::prefetch_buckets"
+values = { "4" = 4, "31" = 1, "789269543" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Model::prefetch_inputs"
+values = { "2" = 1, "3" = 1, "5" = 1, "7" = 2, "8" = 5, "9" = 1, "15" = 2, "16" = 2, "24" = 1, "32" = 1, "128" = 1, "255" = 1, "256" = 2, "65535" = 1, "16711935" = 1, "1426063360" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Model::prefetch_mixers"
+values = { "7" = 1, "8" = 3, "32" = 1, "255" = 2, "16777215" = 1, "789269543" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Model::sense_models"
+values = { "2" = 5, "3" = 2, "4" = 3, "7" = 2, "15" = 2, "256" = 8, "1024" = 2 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Model::sense_slots"
+values = { "4" = 4, "15" = 1, "16" = 1, "789269543" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Model::short_key"
+values = { "4" = 1, "32" = 1, "85" = 1, "789269543" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Model::sized"
+values = { "2" = 1, "16" = 1, "22" = 2, "1024" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "NC"
+facet = "contextCount"
+values = { "17" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "NINP"
+values = { "24" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "NINP_NARROW"
+values = { "16" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "SLOT_FRESH"
+values = { "32768" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "SQT"
+values = { "2" = 1, "3" = 1, "6" = 1, "10" = 1, "16" = 1, "27" = 1, "33" = 1, "45" = 1, "73" = 1, "120" = 1, "194" = 1, "310" = 1, "488" = 1, "747" = 1, "1101" = 1, "1546" = 1, "2047" = 1, "2549" = 1, "2994" = 1, "3348" = 1, "3607" = 1, "3785" = 1, "3901" = 1, "3975" = 1, "4022" = 1, "4050" = 1, "4068" = 1, "4079" = 1, "4085" = 1, "4089" = 1, "4092" = 1, "4093" = 1, "4094" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "TABLE_FIELD"
+values = { "63" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "TABLE_MAX"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "TABLE_MIN"
+values = { "5" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "TABLE_SHIFT"
+values = { "20" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "TB_MAX"
+facet = "contextTableSlots"
+values = { "24" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "TICK"
+values = { "14" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Tables"
+values = { "4096" = 5 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "Tables::mean_cost"
+values = { "2" = 1, "3" = 1, "16" = 2, "2047" = 4, "2048" = 2, "4095" = 1, "4096" = 1, "6144" = 1, "21846" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "WIDE"
+values = { "31" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "WIDEST_BITS"
+values = { "16" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "adapt"
+values = { "16" = 1, "65535" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "adapt_slot"
+values = { "16" = 3, "65535" = 3 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "arm::<Neon as Kernel>::dot"
+values = { "3" = 1, "4" = 3 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "arm::<Neon as Kernel>::train"
+values = { "2" = 1, "3" = 1, "4" = 3, "16" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "at_plan"
+values = { "12" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "bucket_in"
+values = { "4" = 3, "15" = 1, "16" = 4, "24" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "coder_bound"
+values = { "2" = 1, "64" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "context_hashes"
+values = { "2" = 2, "3" = 1, "8" = 3, "9" = 1, "16" = 4, "24" = 1, "255" = 1, "256" = 1, "65280" = 1, "65535" = 3, "8388608" = 1, "16777215" = 1, "16777216" = 1, "16777619" = 1, "50331648" = 1, "67108864" = 1, "268435456" = 1, "1996488704" = 1, "2147483648" = 1, "4294901760" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "cost_table"
+values = { "2" = 2, "7" = 1, "8" = 1, "15" = 1, "256" = 1, "3072" = 1, "4096" = 2, "32768" = 2, "65536" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "declared_length"
+values = { "4" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "decode_bits"
+values = { "2" = 1, "4" = 5, "8" = 5, "24" = 3, "64" = 1, "255" = 3 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "decode_canonical_window"
+values = { "12" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "default_table_bits"
+values = { "16" = 1, "1024" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "encode_bits"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "encode_pair_below"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "encode_pair_warm_below"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "encode_pairs"
+values = { "2" = 2 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "encode_pairs_learn_below"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "encoder_pair"
+values = { "2" = 2, "3" = 1, "9" = 2, "256" = 2, "2048" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "h"
+values = { "12" = 1, "15" = 2, "695872825" = 1, "739982445" = 1, "2654435761" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "information_cost"
+values = { "63" = 3, "64" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "len_bucket"
+values = { "2" = 1, "3" = 1, "6" = 1, "16" = 3, "20" = 1, "24" = 1, "31" = 1, "32" = 2, "64" = 2, "512" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "run_bits"
+values = { "2" = 1, "8" = 1, "2048" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "run_encoder"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "squash"
+values = { "7" = 2, "16" = 1, "64" = 1, "127" = 1, "128" = 1, "2047" = 2, "4095" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "standard::COUNT_LIMIT"
+facet = "observationCountLimit"
+values = { "127" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "standard::ERROR_LIMIT"
+values = { "4096" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "standard::INPUT_LIMIT"
+values = { "2047" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "standard::MIXERS"
+values = { "3" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "standard::MIXER_INPUTS"
+values = { "7" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "standard::PLASTICITY_FLOOR"
+values = { "24" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "standard::PLASTICITY_GAIN"
+values = { "104" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "standard::PLASTICITY_HALF_LIFE"
+facet = "plasticityHalfLife"
+values = { "4096" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "standard::PLASTICITY_SHIFT"
+values = { "16" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "standard::RATE_NUMERATOR"
+values = { "131072" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "standard::REFINEMENT_SHIFT"
+values = { "6" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "standard::STEP_LIMIT"
+values = { "16376" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "standard::WEIGHT_INITIAL"
+values = { "14" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "standard::WEIGHT_LIMIT"
+values = { "22" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "stretch_index"
+values = { "4" = 1, "65535" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "table_bytes"
+values = { "4" = 2 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "tables"
+values = { "2" = 1, "3" = 1, "2047" = 3, "2048" = 1, "4096" = 2 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "valid_profile"
+values = { "31" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "warm_pair"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "wasm::<Simd128 as Kernel>::dot"
+values = { "3" = 1, "4" = 3 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "wasm::<Simd128 as Kernel>::train"
+values = { "2" = 1, "3" = 1, "4" = 3, "16" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "x86::<Avx2 as Kernel>::dot"
+values = { "3" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "x86::<Avx2 as Kernel>::gains"
+values = { "3" = 2 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "x86::<Avx2 as Kernel>::train"
+values = { "3" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "x86::dot"
+values = { "3" = 1, "8" = 1, "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "x86::encoder_pair"
+values = { "2" = 2 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "x86::gains"
+values = { "3" = 3, "4" = 2, "8" = 2, "16" = 4, "32" = 3, "170" = 1, "2047" = 3, "2048" = 2, "4095" = 1, "4096" = 1, "6144" = 1, "21846" = 1, "65535" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "x86::lanes"
+values = { "8" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "x86::madd"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "x86::step"
+values = { "8" = 1, "16" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm.rs"
+item = "x86::train"
+values = { "2" = 1, "3" = 1, "8" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/image.rs"
+item = "In::u"
+values = { "8" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/image.rs"
+item = "load"
+values = { "8" = 1, "12" = 1, "24" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/image.rs"
+item = "place"
+values = { "32" = 2 }
+
+[[item]]
+file = "crates/uorc/src/ncm/image.rs"
+item = "read"
+values = { "20" = 1, "32" = 2 }
+
+[[item]]
+file = "crates/uorc/src/ncm/image.rs"
+item = "write"
+values = { "20" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/staged.rs"
+item = "Cut::of"
+values = { "5" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/staged.rs"
+item = "Cut::range"
+values = { "5" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/staged.rs"
+item = "Model::advance_mix"
+values = { "8" = 2, "255" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/staged.rs"
+item = "Model::split"
+values = { "16" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/staged.rs"
+item = "batch"
+values = { "2" = 5, "3" = 1, "4" = 1, "8" = 3 }
+
+[[item]]
+file = "crates/uorc/src/ncm/staged.rs"
+item = "mix_bit"
+values = { "2" = 1, "7" = 1, "8" = 1, "255" = 1, "2048" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/staged.rs"
+item = "read_bytes"
+values = { "2" = 2, "4" = 1, "8" = 3, "16" = 1, "789269543" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/staged.rs"
+item = "sites"
+values = { "2" = 3, "4" = 1, "7" = 1, "8" = 2, "16" = 1, "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/staged.rs"
+item = "stretch"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/staged.rs"
+item = "two_sides"
+values = { "2" = 1, "7" = 1, "8" = 5 }
+
+[[item]]
+file = "crates/uorc/src/ncm/staged.rs"
+item = "walk_sites"
+values = { "2" = 3, "4" = 9, "7" = 1, "8" = 2, "15" = 2, "31" = 1, "65535" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "Acc::add"
+values = { "16" = 2, "127" = 2, "65535" = 2 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "Acc::done"
+values = { "16" = 2, "127" = 1, "65535" = 2 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "Coder"
+values = { "128" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "EPOCH_AT"
+values = { "53" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "Frame::merge"
+values = { "65535" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "Frame::merge::AHEAD"
+values = { "8" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "Group"
+values = { "16" = 2 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "Lane::bucket"
+values = { "16" = 3, "24" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "Own::new"
+values = { "16" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "Plan::ONE"
+values = { "12" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "Plan::of"
+values = { "12" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "Plan::serial"
+values = { "12" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "Plan::stride"
+values = { "64" = 2 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "Plan::valid"
+values = { "12" = 1, "16" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "STREAMS_AT"
+values = { "37" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "code"
+values = { "8" = 3, "24" = 2, "255" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "decode_k"
+values = { "24" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "encode_frame"
+values = { "24" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "merge_bucket"
+values = { "16" = 8 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "merge_small"
+values = { "16" = 2, "65535" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "merge_words::CHUNK"
+values = { "64" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "run_on"
+values = { "16" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "same_context"
+values = { "16" = 5 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "single"
+values = { "16" = 5 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "split"
+values = { "12" = 1, "16" = 2, "31" = 1, "65535" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "tag"
+values = { "16" = 2, "255" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "uncode"
+values = { "8" = 4, "24" = 2, "255" = 2 }
+
+[[item]]
+file = "crates/uorc/src/ncm/streams.rs"
+item = "word"
+values = { "12" = 1 }
+
+[[item]]
+file = "crates/uorc/src/performance.rs"
+item = "BITS_PER_BYTE"
+values = { "8" = 1 }
+
+[[item]]
+file = "crates/uorc/src/performance.rs"
+item = "CONTEXT_BITS"
+facet = "contextCount"
+values = { "17" = 1 }
+
+[[item]]
+file = "crates/uorc/src/performance.rs"
+item = "CodecPoint"
+values = { "32" = 2 }
+
+[[item]]
+file = "crates/uorc/src/performance.rs"
+item = "CodecPoint::kappa"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/performance.rs"
+item = "CodecPoint::of"
+values = { "32" = 2 }
+
+[[item]]
+file = "crates/uorc/src/performance.rs"
+item = "FEATURE_INPUTS"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/performance.rs"
+item = "FIXED_INPUTS"
+values = { "3" = 1 }
+
+[[item]]
+file = "crates/uorc/src/performance.rs"
+item = "MAX_INPUTS"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/performance.rs"
+item = "PAGE_WORKER"
+values = { "30" = 1 }
+
+[[item]]
+file = "crates/uorc/src/performance.rs"
+item = "POINT_X86"
+values = { "31" = 1 }
+
+[[item]]
+file = "crates/uorc/src/performance.rs"
+item = "WORKERS_PER_GIB"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/performance.rs"
+item = "corpus_kappa"
+values = { "32" = 2 }
+
+[[item]]
+file = "crates/uorc/src/portfolio.rs"
+item = "ENTRY"
+values = { "5" = 1 }
+
+[[item]]
+file = "crates/uorc/src/portfolio.rs"
+item = "FAMILIES"
+values = { "5" = 1 }
+
+[[item]]
+file = "crates/uorc/src/portfolio.rs"
+item = "MAX_PLAN"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/portfolio.rs"
+item = "STRATEGIES"
+values = { "2" = 1, "3" = 1, "4" = 1 }
+
+[[item]]
+file = "crates/uorc/src/portfolio.rs"
+item = "Strategy::entry"
+values = { "2" = 1, "3" = 1 }
+
+[[item]]
+file = "crates/uorc/src/portfolio.rs"
+item = "TEXT"
+values = { "3" = 1 }
+
+[[item]]
+file = "crates/uorc/src/portfolio.rs"
+item = "Table::strategy"
+values = { "2" = 1, "3" = 1, "4" = 1 }
+
+[[item]]
+file = "crates/uorc/src/portfolio.rs"
+item = "V04_PAIR"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/portfolio.rs"
+item = "X86"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/portfolio.rs"
+item = "X86_BIT"
+values = { "31" = 1 }
+
+[[item]]
+file = "crates/uorc/src/portfolio.rs"
+item = "family"
+values = { "4" = 1, "4096" = 1, "65536" = 1 }
+
+[[item]]
+file = "crates/uorc/src/portfolio.rs"
+item = "learn"
+values = { "2" = 3, "16" = 2 }
+
+[[item]]
+file = "crates/uorc/src/portfolio.rs"
+item = "printable"
+values = { "9" = 1, "10" = 1, "13" = 1, "32" = 1, "127" = 1 }
+
+[[item]]
+file = "crates/uorc/src/portfolio.rs"
+item = "text"
+values = { "9" = 1, "10" = 1 }
+
+[[item]]
+file = "crates/uorc/src/region.rs"
+item = "probe"
+values = { "10" = 1 }
+
+[[item]]
+file = "crates/uorc/src/region.rs"
+item = "size"
+values = { "10" = 1, "20" = 1, "30" = 1 }
+
+[[item]]
+file = "crates/uorc/src/states.rs"
+item = "ALL"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/states.rs"
+item = "KAPPA"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/states.rs"
+item = "identity"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/states.rs"
+item = "identity::IDS"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/states.rs"
+item = "kappa_bytes"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/store.rs"
+item = "Shared::take"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/store.rs"
+item = "Store"
+values = { "32" = 3 }
+
+[[item]]
+file = "crates/uorc/src/store.rs"
+item = "Store::missing"
+values = { "32" = 2 }
+
+[[item]]
+file = "crates/uorc/src/store.rs"
+item = "Store::offer_labelled"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/store.rs"
+item = "Store::take"
+values = { "32" = 1 }
+
+[[item]]
+file = "crates/uorc/src/tree.rs"
+item = "layout"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/tree.rs"
+item = "push_uleb"
+values = { "7" = 1, "127" = 1, "128" = 1 }
+
+[[item]]
+file = "crates/uorc/src/tree.rs"
+item = "read_manifest"
+values = { "2" = 1 }
+
+[[item]]
+file = "crates/uorc/src/tree.rs"
+item = "read_uleb"
+values = { "7" = 1, "64" = 1, "127" = 1, "128" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ulz.rs"
+item = "ALIGN"
+values = { "6587" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ulz.rs"
+item = "IS_REP"
+values = { "12" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ulz.rs"
+item = "IS_REP0_LONG"
+values = { "60" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ulz.rs"
+item = "IS_REP_G0"
+values = { "24" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ulz.rs"
+item = "IS_REP_G1"
+values = { "36" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ulz.rs"
+item = "IS_REP_G2"
+values = { "48" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ulz.rs"
+item = "LEN"
+values = { "6603" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ulz.rs"
+item = "LITERAL"
+values = { "72" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ulz.rs"
+item = "PROBS"
+values = { "13" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ulz.rs"
+item = "REP_LEN"
+values = { "7149" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ulz.rs"
+item = "RangeDecoder::bit"
+values = { "5" = 2, "11" = 1, "2048" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ulz.rs"
+item = "RangeDecoder::distance"
+values = { "2" = 1, "3" = 1, "4" = 3, "6" = 1, "14" = 1, "16" = 1, "64" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ulz.rs"
+item = "RangeDecoder::length"
+values = { "2" = 1, "3" = 2, "8" = 2, "16" = 1, "18" = 1, "34" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ulz.rs"
+item = "RangeDecoder::normalize"
+values = { "8" = 2 }
+
+[[item]]
+file = "crates/uorc/src/ulz.rs"
+item = "SLOT"
+values = { "6216" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ulz.rs"
+item = "SPEC"
+values = { "6472" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ulz.rs"
+item = "TOP"
+values = { "24" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ulz.rs"
+item = "after_literal"
+values = { "3" = 1, "4" = 1, "6" = 1, "10" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ulz.rs"
+item = "after_match"
+values = { "7" = 2, "10" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ulz.rs"
+item = "after_rep"
+values = { "7" = 1, "8" = 1, "11" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ulz.rs"
+item = "after_short"
+values = { "7" = 1, "9" = 1, "11" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ulz.rs"
+item = "decode_with"
+values = { "2" = 4, "4" = 1, "7" = 1, "8" = 3, "9" = 1, "13" = 3, "64" = 1, "256" = 3, "1024" = 1 }
+
+[[item]]
+file = "crates/uorc/src/ulz.rs"
+item = "literal_base"
+values = { "5" = 1, "768" = 1 }
+
+[[item]]
+file = "crates/uorc/src/x86.rs"
+item = "dense"
+values = { "4" = 2, "5" = 2, "232" = 1, "233" = 1, "255" = 1, "256" = 1 }
+
+[[item]]
+file = "crates/uorc/src/x86.rs"
+item = "filter"
+values = { "2" = 1, "3" = 1, "4" = 1, "5" = 4, "24" = 1, "232" = 1, "233" = 1, "255" = 1, "33554431" = 1, "4261412864" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/Basis.lex.tex"
+item = "append"
+values = { "64" = 1, "18446744073709551615" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/Basis.lex.tex"
+item = "atIndex"
+values = { "64" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/Basis.lex.tex"
+item = "eventWork"
+values = { "129" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/ByteBuilder.lex.tex"
+item = "blockSize"
+values = { "4096" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/ByteBuilder.lex.tex"
+item = "chooseCapacity"
+values = { "2" = 2, "2048" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/ByteBuilder.lex.tex"
+item = "empty"
+values = { "4096" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/ByteBuilder.lex.tex"
+item = "eventWork"
+values = { "9" = 1, "4096" = 4 }
+
+[[item]]
+file = "src/Uorc/Core/ByteBuilder.lex.tex"
+item = "start"
+values = { "12" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/ByteBuilder.lex.tex"
+item = "step"
+values = { "2" = 1, "4096" = 3, "18446744073709551615" = 2 }
+
+[[item]]
+file = "src/Uorc/Core/ByteBuilder.lex.tex"
+item = "valid"
+values = { "12" = 2, "4096" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/ByteBuilder.lex.tex"
+item = "validBins"
+values = { "2" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/Bytes.lex.tex"
+item = "checkNode"
+values = { "18446744073709551615" = 2 }
+
+[[item]]
+file = "src/Uorc/Core/Bytes.lex.tex"
+item = "equal"
+values = { "3" = 1, "4" = 1, "10" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/ExecutionCredit.lex.tex"
+item = "tick"
+values = { "18446744073709551615" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/Lifetime.lex.tex"
+item = "eventWork"
+values = { "129" = 1, "193" = 2, "321" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/Lifetime.lex.tex"
+item = "recordReference"
+values = { "64" = 3 }
+
+[[item]]
+file = "src/Uorc/Core/Lifetime.lex.tex"
+item = "scheduleFromUses"
+values = { "2" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/Lifetime.lex.tex"
+item = "startKnown"
+values = { "2" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/Lifetime.lex.tex"
+item = "stepMaterialize"
+values = { "64" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/Lifetime.lex.tex"
+item = "stepReleases"
+values = { "64" = 4 }
+
+[[item]]
+file = "src/Uorc/Core/Slots.lex.tex"
+item = "appendSlot"
+values = { "64" = 1, "18446744073709551615" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/Slots.lex.tex"
+item = "atIndex"
+values = { "64" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/Slots.lex.tex"
+item = "releaseSlot"
+values = { "64" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/StepMachine.lex.tex"
+item = "callBlock"
+values = { "257" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/StepMachine.lex.tex"
+item = "callIteration"
+values = { "64" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/StepMachine.lex.tex"
+item = "dispatch"
+values = { "18446744073709551615" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/StepMachine.lex.tex"
+item = "finishIterator"
+values = { "128" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/StepMachine.lex.tex"
+item = "initializationWork"
+values = { "257" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/StepMachine.lex.tex"
+item = "instructionReadWork"
+values = { "137" = 1, "192" = 7, "256" = 2, "320" = 21, "384" = 1, "512" = 2 }
+
+[[item]]
+file = "src/Uorc/Core/StepMachine.lex.tex"
+item = "nextAtomic"
+values = { "128" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/StepMachine.lex.tex"
+item = "plannedWorkBound"
+values = { "129" = 2, "131" = 1, "322" = 5, "451" = 1, "641" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/StepMachine.lex.tex"
+item = "planningWork"
+values = { "129" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/StepMachine.lex.tex"
+item = "releaseOne"
+values = { "128" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/StepMachine.lex.tex"
+item = "returnFrame"
+values = { "128" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/StepMachine.lex.tex"
+item = "stepPending"
+values = { "128" = 2 }
+
+[[item]]
+file = "src/Uorc/Core/Store.lex.tex"
+item = "readStore"
+values = { "64" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/Store.lex.tex"
+item = "writeStore"
+values = { "64" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/Types.lex.tex"
+item = "wordOfNat"
+values = { "64" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/Types.lex.tex"
+item = "wordOfNatAux"
+values = { "2" = 3 }
+
+[[item]]
+file = "src/Uorc/Core/Types.lex.tex"
+item = "wordToNat"
+values = { "64" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/Types.lex.tex"
+item = "wordToNatAux"
+values = { "2" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/Validation.lex.tex"
+item = "blockAppend"
+values = { "64" = 1, "18446744073709551615" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/Validation.lex.tex"
+item = "blockAtIndex"
+values = { "64" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/Validation.lex.tex"
+item = "bodyAppend"
+values = { "64" = 1, "18446744073709551615" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/Validation.lex.tex"
+item = "bodyAtIndex"
+values = { "64" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/Validation.lex.tex"
+item = "bodyCommitStep"
+values = { "64" = 4 }
+
+[[item]]
+file = "src/Uorc/Core/Validation.lex.tex"
+item = "checkingStep"
+values = { "64" = 36 }
+
+[[item]]
+file = "src/Uorc/Core/Validation.lex.tex"
+item = "commitStep"
+values = { "64" = 4 }
+
+[[item]]
+file = "src/Uorc/Core/Validation.lex.tex"
+item = "entryStep"
+values = { "64" = 5 }
+
+[[item]]
+file = "src/Uorc/Core/Validation.lex.tex"
+item = "eventWork"
+values = { "129" = 15 }
+
+[[item]]
+file = "src/Uorc/Core/Validation.lex.tex"
+item = "lifetimeCommitStep"
+values = { "64" = 4 }
+
+[[item]]
+file = "src/Uorc/Core/Validation.lex.tex"
+item = "parametersStep"
+values = { "64" = 4 }
+
+[[item]]
+file = "src/Uorc/Core/Validation.lex.tex"
+item = "returnStep"
+values = { "64" = 5 }
+
+[[item]]
+file = "src/Uorc/Core/Validation.lex.tex"
+item = "scheduleAppend"
+values = { "64" = 1, "18446744073709551615" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/Validation.lex.tex"
+item = "scheduleAtIndex"
+values = { "64" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/Validation.lex.tex"
+item = "typeAppend"
+values = { "64" = 1, "18446744073709551615" = 1 }
+
+[[item]]
+file = "src/Uorc/Core/Validation.lex.tex"
+item = "typeAtIndex"
+values = { "64" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/ArchiveBuild.lex.tex"
+item = "step"
+values = { "32" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/ArchiveTrial.lex.tex"
+item = "afterBoundaries"
+values = { "2" = 1, "32" = 2 }
+
+[[item]]
+file = "src/Uorc/Search/ArchiveTrial.lex.tex"
+item = "dispatch"
+values = { "32" = 4, "4096" = 2 }
+
+[[item]]
+file = "src/Uorc/Search/BasisIdentity.lex.tex"
+item = "eventWork"
+values = { "129" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/BasisIdentity.lex.tex"
+item = "perform"
+values = { "32" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/BasisIdentity.lex.tex"
+item = "start"
+values = { "14" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/Charts.lex.tex"
+item = "affineBlock"
+values = { "3" = 1, "4" = 2, "5" = 1, "256" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/Charts.lex.tex"
+item = "ringDifference"
+values = { "256" = 3 }
+
+[[item]]
+file = "src/Uorc/Search/Compose.lex.tex"
+item = "step"
+values = { "18446744073709551615" = 2 }
+
+[[item]]
+file = "src/Uorc/Search/Dictionary.lex.tex"
+item = "indexFold"
+values = { "2" = 2, "3" = 1, "4" = 1, "8" = 2, "9" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/Dictionary.lex.tex"
+item = "indexWidth"
+values = { "2" = 1, "3" = 1, "4" = 1, "5" = 1, "6" = 1, "7" = 1, "8" = 1, "256" = 1, "65536" = 1, "16777216" = 1, "4294967296" = 1, "1099511627776" = 1, "281474976710656" = 1, "72057594037927936" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/Dictionary.lex.tex"
+item = "lookupBlock"
+values = { "2" = 2, "3" = 4, "4" = 2, "5" = 1, "7" = 2, "9" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/Dictionary.lex.tex"
+item = "program"
+values = { "2" = 2 }
+
+[[item]]
+file = "src/Uorc/Search/DictionaryFit.lex.tex"
+item = "step"
+values = { "256" = 2, "18446744073709551615" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/Effort.lex.tex"
+item = "checkedU64"
+values = { "64" = 1, "18446744073709551615" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/Effort.lex.tex"
+item = "natToU64Bits"
+values = { "2" = 2 }
+
+[[item]]
+file = "src/Uorc/Search/Effort.lex.tex"
+item = "nativeDefault"
+values = { "2048" = 1, "4096" = 1, "1048576" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/Effort.lex.tex"
+item = "nativeWork"
+values = { "2048" = 1, "4096" = 1, "1048576" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/Effort.lex.tex"
+item = "viewDefault"
+values = { "512" = 1, "1024" = 1, "65536" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/Effort.lex.tex"
+item = "viewWork"
+values = { "512" = 1, "1024" = 1, "65536" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/Engine.lex.tex"
+item = "dispatch"
+values = { "4096" = 3 }
+
+[[item]]
+file = "src/Uorc/Search/Engine.lex.tex"
+item = "selectedStep"
+values = { "18446744073709551615" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/Enumerate.lex.tex"
+item = "buildStep"
+values = { "256" = 2 }
+
+[[item]]
+file = "src/Uorc/Search/Enumerate.lex.tex"
+item = "step"
+values = { "255" = 2 }
+
+[[item]]
+file = "src/Uorc/Search/FrameMeasure.lex.tex"
+item = "step"
+values = { "32" = 2, "18446744073709551615" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HashRope.lex.tex"
+item = "step"
+values = { "32" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanFit.lex.tex"
+item = "eventWork"
+values = { "96" = 3, "512" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanFit.lex.tex"
+item = "perform"
+values = { "2" = 6, "4" = 38, "7" = 1, "8" = 76, "9" = 15, "255" = 1, "256" = 57, "511" = 1, "512" = 8, "18446744073709551615" = 2 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanFit.lex.tex"
+item = "start"
+values = { "256" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanFit.lex.tex"
+item = "statistics"
+values = { "4" = 1, "8" = 2, "256" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanFit.lex.tex"
+item = "step"
+values = { "18446744073709551615" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart0"
+values = { "2" = 1, "5" = 1, "8" = 2 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart1"
+values = { "2" = 2, "3" = 1, "6" = 2, "14" = 1, "16" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart10"
+values = { "2" = 2, "3" = 2, "26" = 1, "30" = 1, "31" = 1, "32" = 1, "36" = 1, "81" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart11"
+values = { "2" = 2, "7" = 1, "8" = 1, "44" = 1, "97" = 1, "255" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart12"
+values = { "2" = 2, "7" = 1, "14" = 1, "16" = 1, "255" = 2 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart13"
+values = { "2" = 4, "7" = 1, "21" = 1, "24" = 1, "255" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart14"
+values = { "2" = 2, "3" = 1, "7" = 1, "28" = 1, "32" = 1, "255" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart15"
+values = { "2" = 2, "4" = 1, "5" = 1, "7" = 1, "35" = 1, "40" = 1, "255" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart16"
+values = { "2" = 3, "6" = 1, "7" = 2, "42" = 1, "48" = 1, "255" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart17"
+values = { "2" = 2, "7" = 2, "49" = 1, "56" = 1, "255" = 2 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart18"
+values = { "2" = 2, "5" = 1, "8" = 2, "65" = 1, "70" = 1, "255" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart19"
+values = { "2" = 1, "7" = 1, "9" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart2"
+values = { "2" = 1, "4" = 1, "6" = 1, "20" = 1, "24" = 1, "26" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart20"
+values = { "2" = 2, "3" = 1, "4" = 1, "5" = 2, "6" = 1, "8" = 2, "9" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart21"
+values = { "2" = 2, "6" = 1, "256" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart22"
+values = { "2" = 2, "3" = 1, "4" = 1, "5" = 2, "6" = 1, "7" = 1, "8" = 2 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart23"
+values = { "2" = 3, "6" = 2, "11" = 1, "16" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart24"
+values = { "2" = 1, "3" = 1, "4" = 1, "6" = 1, "17" = 1, "23" = 1, "24" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart25"
+values = { "2" = 1, "5" = 1, "6" = 1, "29" = 1, "32" = 1, "40" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart26"
+values = { "2" = 2, "6" = 3, "35" = 1, "48" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart27"
+values = { "2" = 1, "6" = 1, "7" = 1, "41" = 1, "55" = 1, "56" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart28"
+values = { "2" = 2, "3" = 2, "4" = 1, "49" = 1, "53" = 1, "255" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart29"
+values = { "2" = 2, "8" = 2, "58" = 1, "59" = 1, "63" = 1, "255" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart3"
+values = { "2" = 2, "5" = 1, "6" = 1, "32" = 2, "40" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart30"
+values = { "2" = 1, "7" = 1, "9" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart31"
+values = { "4" = 1, "512" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart32"
+values = { "2" = 1, "3" = 3, "8" = 1, "14" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart33"
+values = { "2" = 1, "3" = 1, "4" = 1, "5" = 2, "6" = 1, "15" = 1, "17" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart34"
+values = { "2" = 1, "3" = 2, "6" = 1, "14" = 2, "17" = 1, "24" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart35"
+values = { "2" = 1, "3" = 2, "15" = 1, "255" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart36"
+values = { "2" = 2, "5" = 1, "8" = 2, "37" = 1, "42" = 1, "255" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart37"
+values = { "2" = 2, "7" = 1, "9" = 1, "46" = 2, "47" = 2, "48" = 1, "49" = 2, "50" = 2, "51" = 2 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart4"
+values = { "2" = 1, "6" = 3, "7" = 1, "38" = 1, "48" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart5"
+values = { "2" = 1, "6" = 1, "8" = 1, "44" = 1, "50" = 1, "56" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart6"
+values = { "2" = 2, "6" = 1, "8" = 1, "9" = 1, "53" = 1, "256" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart7"
+values = { "2" = 1, "4" = 1, "5" = 2, "6" = 2, "7" = 1, "8" = 2, "18" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart8"
+values = { "2" = 4, "3" = 1, "6" = 1, "8" = 1, "10" = 2, "11" = 1, "68" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "boundedListPart9"
+values = { "2" = 4, "3" = 1, "15" = 1, "19" = 1, "24" = 1, "26" = 1, "75" = 1, "76" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "branchProgram"
+values = { "4" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/HuffmanProgram.lex.tex"
+item = "decodeBlock"
+values = { "2" = 1, "3" = 1, "4" = 1, "5" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/Identity.lex.tex"
+item = "step"
+values = { "32" = 2 }
+
+[[item]]
+file = "src/Uorc/Search/InputModels.lex.tex"
+item = "step"
+values = { "2" = 1, "256" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/LzFit.lex.tex"
+item = "defaultPolicy"
+values = { "8" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/LzFit.lex.tex"
+item = "step"
+values = { "2" = 2, "3" = 1, "24" = 2, "128" = 2, "256" = 1, "18446744073709551615" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/LzProgram.lex.tex"
+item = "beginLiteral"
+values = { "2" = 1, "18446744073709551615" = 2 }
+
+[[item]]
+file = "src/Uorc/Search/LzProgram.lex.tex"
+item = "beginReference"
+values = { "2" = 5, "3" = 2, "5" = 2, "6" = 1, "18446744073709551615" = 2 }
+
+[[item]]
+file = "src/Uorc/Search/LzProgram.lex.tex"
+item = "finishStep"
+values = { "3" = 2 }
+
+[[item]]
+file = "src/Uorc/Search/LzProgram.lex.tex"
+item = "step"
+values = { "18446744073709551615" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/Normalize.lex.tex"
+item = "buildStep"
+values = { "2" = 2 }
+
+[[item]]
+file = "src/Uorc/Search/Overlay.lex.tex"
+item = "repairBlock"
+values = { "2" = 2, "3" = 2, "4" = 1, "5" = 1, "7" = 2, "8" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/Overlay.lex.tex"
+item = "start"
+values = { "2" = 1, "3" = 1, "4" = 1, "5" = 1, "18446744073709551614" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/Overlay.lex.tex"
+item = "step"
+values = { "2" = 3, "4" = 3, "5" = 1, "18446744073709551610" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/PackedDictionary.lex.tex"
+item = "foldProgram"
+values = { "2" = 2 }
+
+[[item]]
+file = "src/Uorc/Search/PackedDictionary.lex.tex"
+item = "indexBitsAux"
+values = { "2" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/PackedDictionary.lex.tex"
+item = "indexFold"
+values = { "2" = 5, "3" = 2, "4" = 1, "5" = 1, "8" = 1, "13" = 2 }
+
+[[item]]
+file = "src/Uorc/Search/PackedDictionary.lex.tex"
+item = "lookupBlock"
+values = { "2" = 2, "3" = 4, "4" = 2, "5" = 1, "7" = 2, "9" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/PackedDictionary.lex.tex"
+item = "zeroBitLookup"
+values = { "2" = 2 }
+
+[[item]]
+file = "src/Uorc/Search/PackedDictionary.lex.tex"
+item = "zeroBitProgram"
+values = { "2" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/PackedFit.lex.tex"
+item = "step"
+values = { "2" = 5, "7" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/PackedLayout.lex.tex"
+item = "powerTwo"
+values = { "2" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/PackedLayout.lex.tex"
+item = "start"
+values = { "8" = 5 }
+
+[[item]]
+file = "src/Uorc/Search/PackedLayout.lex.tex"
+item = "step"
+values = { "8" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/PrefixModels.lex.tex"
+item = "generator"
+values = { "2" = 2 }
+
+[[item]]
+file = "src/Uorc/Search/Residual.lex.tex"
+item = "beginBuild"
+values = { "2" = 2, "3" = 1, "4" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/Residual.lex.tex"
+item = "buildStep"
+values = { "2" = 3, "4" = 3, "5" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/Residual.lex.tex"
+item = "repairBlock"
+values = { "2" = 2, "3" = 2, "4" = 2, "6" = 1, "7" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/Residual.lex.tex"
+item = "stepFinish"
+values = { "2" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/RopeWords.lex.tex"
+item = "step"
+values = { "256" = 2 }
+
+[[item]]
+file = "src/Uorc/Search/State.lex.tex"
+item = "foldGraph"
+values = { "2" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/State.lex.tex"
+item = "infer"
+values = { "256" = 2 }
+
+[[item]]
+file = "src/Uorc/Search/State.lex.tex"
+item = "stateGraph"
+values = { "2" = 3 }
+
+[[item]]
+file = "src/Uorc/Search/State.lex.tex"
+item = "step"
+values = { "256" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/State.lex.tex"
+item = "updaterBlock"
+values = { "3" = 3, "4" = 1, "256" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/StreamBuilder.lex.tex"
+item = "perform"
+values = { "18446744073709551615" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/Synthesis.lex.tex"
+item = "start"
+values = { "8" = 1 }
+
+[[item]]
+file = "src/Uorc/Search/Synthesis.lex.tex"
+item = "substringSelected"
+values = { "2" = 12 }
+
+[[item]]
+file = "src/Uorc/Wire/Cursor.lex.tex"
+item = "ulebStep"
+values = { "9" = 3, "10" = 1, "128" = 6 }
+
+[[item]]
+file = "src/Uorc/Wire/Frame.lex.tex"
+item = "preimageStart"
+values = { "32" = 1, "67" = 1, "79" = 1, "82" = 1, "85" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/Frame.lex.tex"
+item = "prepareStep"
+values = { "32" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/FrameParse.lex.tex"
+item = "runChunksFixture"
+values = { "17" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/FrameParse.lex.tex"
+item = "runFixture"
+values = { "4096" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/FrameParse.lex.tex"
+item = "step"
+values = { "2" = 1, "3" = 1, "32" = 3, "67" = 1, "79" = 1, "82" = 1, "85" = 1, "128" = 14 }
+
+[[item]]
+file = "src/Uorc/Wire/GraphEmit.lex.tex"
+item = "collectFixture"
+values = { "16" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/GraphEmit.lex.tex"
+item = "instructionTasks"
+values = { "2" = 1, "3" = 2, "4" = 1, "5" = 1, "6" = 1, "7" = 1, "8" = 1, "9" = 1, "10" = 1, "11" = 1, "12" = 1, "13" = 1, "14" = 1, "15" = 1, "16" = 1, "17" = 1, "18" = 1, "19" = 1, "20" = 1, "21" = 1, "22" = 1, "23" = 1, "24" = 1, "25" = 1, "26" = 1, "27" = 1, "28" = 1, "29" = 1, "30" = 1, "31" = 1, "32" = 1, "33" = 1, "34" = 1, "35" = 1, "36" = 1, "37" = 1, "38" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/GraphEmit.lex.tex"
+item = "opcode"
+values = { "2" = 1, "3" = 2, "4" = 1, "5" = 1, "6" = 1, "7" = 1, "8" = 1, "9" = 1, "10" = 1, "11" = 1, "12" = 1, "13" = 1, "14" = 1, "15" = 1, "16" = 1, "17" = 1, "18" = 1, "19" = 1, "20" = 1, "21" = 1, "22" = 1, "23" = 1, "24" = 1, "25" = 1, "26" = 1, "27" = 1, "28" = 1, "29" = 1, "30" = 1, "31" = 1, "32" = 1, "33" = 1, "34" = 1, "35" = 1, "36" = 1, "37" = 1, "38" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/GraphEmit.lex.tex"
+item = "step"
+values = { "8" = 3, "128" = 4 }
+
+[[item]]
+file = "src/Uorc/Wire/GraphEmit.lex.tex"
+item = "typeCode"
+values = { "2" = 1, "3" = 1, "4" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/GraphParse.lex.tex"
+item = "runFixture"
+values = { "16" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/GraphParse.lex.tex"
+item = "step"
+values = { "2" = 4, "3" = 4, "4" = 4, "5" = 3, "6" = 3, "7" = 3, "8" = 3, "9" = 3, "10" = 3, "11" = 3, "12" = 3, "13" = 3, "14" = 3, "15" = 3, "16" = 3, "17" = 3, "18" = 3, "19" = 3, "20" = 3, "21" = 3, "22" = 3, "23" = 3, "24" = 3, "25" = 3, "26" = 3, "27" = 3, "28" = 3, "29" = 3, "30" = 3, "31" = 3, "32" = 3, "33" = 3, "34" = 3, "35" = 3, "36" = 3, "37" = 3, "38" = 3, "128" = 5 }
+
+[[item]]
+file = "src/Uorc/Wire/ObjectSplit.lex.tex"
+item = "binary_single"
+values = { "2" = 1, "4" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/ObjectSplit.lex.tex"
+item = "boundary_across_input"
+values = { "2" = 2, "3" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/ObjectSplit.lex.tex"
+item = "empty_transport_chunks"
+values = { "2" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/ObjectSplit.lex.tex"
+item = "ordered_empty_middle"
+values = { "2" = 3 }
+
+[[item]]
+file = "src/Uorc/Wire/ObjectSplit.lex.tex"
+item = "partition_0"
+values = { "2" = 1, "3" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/ObjectSplit.lex.tex"
+item = "partition_1"
+values = { "2" = 1, "3" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/ObjectSplit.lex.tex"
+item = "partition_2"
+values = { "2" = 1, "3" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/ObjectSplit.lex.tex"
+item = "partition_3"
+values = { "2" = 1, "3" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/ObjectSplit.lex.tex"
+item = "partition_4"
+values = { "2" = 1, "3" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/ObjectSplit.lex.tex"
+item = "partition_5"
+values = { "2" = 1, "3" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/ObjectSplit.lex.tex"
+item = "partition_6"
+values = { "2" = 1, "3" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/ObjectSplit.lex.tex"
+item = "partition_7"
+values = { "2" = 1, "3" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/ObjectSplit.lex.tex"
+item = "runBinaryScenarios"
+values = { "2" = 1, "3" = 1, "4" = 1, "5" = 1, "6" = 1, "7" = 1, "8" = 1, "9" = 1, "10" = 1, "11" = 1, "12" = 1, "13" = 1, "14" = 1, "15" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/ObjectSplit.lex.tex"
+item = "runFixture"
+values = { "200" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/ObjectSplit.lex.tex"
+item = "runPlantedByteMutation"
+values = { "2" = 1, "4" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/ObjectSplit.lex.tex"
+item = "step"
+values = { "18446744073709551615" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/ObjectSplit.lex.tex"
+item = "trailing_after_empty"
+values = { "2" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/ObjectSplit.lex.tex"
+item = "trailing_after_object"
+values = { "2" = 1 }
+
+[[item]]
+file = "src/Uorc/Wire/ObjectSplit.lex.tex"
+item = "truncated_first"
+values = { "2" = 2 }
+
+[[item]]
+file = "src/Uorc/Wire/ObjectSplit.lex.tex"
+item = "truncated_later"
+values = { "2" = 2 }

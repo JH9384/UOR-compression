@@ -10,23 +10,88 @@ on:
 permissions:
   contents: read
 
+# A newer push to a pull request supersedes its older run.
+concurrency:
+  group: bootstrap-${{ github.event.pull_request.number || github.sha }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
 jobs:
+  # `just vv` runs here as independent legs, each from its own clean checkout,
+  # at once. Together the legs run every recipe of `vv` exactly once on the
+  # normative x86-64 host; the arm host runs the host-dependent `rest` leg.
+  # Wall time is the slowest leg, not the sum.
+  #
+  # Every leg is a factory obligation (factory/graph.json, scripts/factory.mjs):
+  # its identity is the SHA-256 of the inputs it declares, and it runs once per
+  # identity. A later run with the same identity (a product-only change for the
+  # formal legs, the merge of an up-to-date pull request for all of them) finds
+  # the receipt and does not repeat the work; a formal leg that failed on the
+  # same inputs is refuted in seconds instead of failing again an hour later
+  # (re-run the job to observe it anyway). Before it runs, a leg deletes every
+  # file it does not declare, so an undeclared input fails the leg instead of
+  # proving a receipt it should not. Each leg uploads only its outcome;
+  # factory.yml turns outcomes into receipts from the default branch.
   template-gate:
-    name: acceptance / ${{ matrix.runner }}
+    name: acceptance / ${{ matrix.leg }} / ${{ matrix.runner }}
     strategy:
       fail-fast: false
       matrix:
-        runner: [ubuntu-24.04, ubuntu-24.04-arm]
+        include:
+          - { leg: rest, runner: ubuntu-24.04, recipes: "lexlean-authority template-check fmt-check model lint test features bdd deny" }
+          - { leg: rest, runner: ubuntu-24.04-arm, recipes: "lexlean-authority template-check fmt-check model lint test features bdd deny" }
+          - { leg: artifacts, runner: ubuntu-24.04, recipes: "lexlean-artifacts" }
+          - { leg: claims, runner: ubuntu-24.04, recipes: "claim-dispositions formal-tests" }
+          - { leg: varint, runner: ubuntu-24.04, recipes: "varint-proofs" }
+          - { leg: reproducibility, runner: ubuntu-24.04, recipes: "reproducibility" }
+          - { leg: integrity, runner: ubuntu-24.04, recipes: "integrity" }
+          - { leg: figures, runner: ubuntu-24.04, recipes: "figures" }
     runs-on: ${{ matrix.runner }}
-    timeout-minutes: 45
+    # The full verify's certificate stage runs one Lean process per production
+    # root, serially (LexLean 0.4), which alone takes about half an hour; the
+    # integrity leg's canonical runtime verifies its own scoped closure. The
+    # rest leg's client tests take about an hour since v0.5 (58 minutes on
+    # x86), so every leg has the same guard against a hung job.
+    timeout-minutes: 120
     steps:
       - name: Check out the exact event revision
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
           fetch-depth: 0
           persist-credentials: false
-      - name: Run the template gate through the locked SDK
+      - name: Route this leg by its own inputs
+        id: route
         shell: bash
+        env:
+          OBLIGATION: ${{ matrix.leg }}-${{ matrix.runner }}
+          LEG_RECIPES: ${{ matrix.recipes }}
+        run: node scripts/factory.mjs route "$OBLIGATION" --expect-run "just $LEG_RECIPES" >> "$GITHUB_OUTPUT"
+      - name: Stop on refuted or blocked inputs
+        if: steps.route.outputs.route != 'observe' && steps.route.outputs.route != 'proved'
+        shell: bash
+        run: exit 1
+      - name: Keep only this leg's declared inputs
+        if: steps.route.outputs.route == 'observe'
+        shell: bash
+        env:
+          OBLIGATION: ${{ matrix.leg }}-${{ matrix.runner }}
+        run: node scripts/factory.mjs materialize "$OBLIGATION"
+      - name: Pull the locked SDK, retrying the registry
+        if: steps.route.outputs.route == 'observe'
+        shell: bash
+        run: |
+          set -euo pipefail
+          image=$(sed -n 's/.*"sdk_image":"\([^"]*\)".*/\1/p' prismpm.lock)
+          for attempt in 1 2 3 4; do
+            if docker pull --quiet "$image"; then exit 0; fi
+            sleep $((attempt * 15))
+          done
+          exit 1
+      - name: Run this leg of the template gate through the locked SDK
+        id: run
+        if: steps.route.outputs.route == 'observe'
+        shell: bash
+        env:
+          LEG_RECIPES: ${{ matrix.recipes }}
         run: |
           set -euo pipefail
           image=$(sed -n 's/.*"sdk_image":"\([^"]*\)".*/\1/p' prismpm.lock)
@@ -54,6 +119,7 @@ jobs:
             --env HOME=/tmp/prismpm-home \
             --env PRISMPM_EPHEMERAL_HOME=1 \
             --env SDK_IMAGE="$image" \
+            --env LEG_RECIPES="$LEG_RECIPES" \
             "$image" bash -c '
               set -euo pipefail
               umask 077
@@ -63,5 +129,37 @@ jobs:
               grep -q "linux/amd64" <<< "$manifest"
               grep -q "linux/arm64" <<< "$manifest"
               devcontainer --version
-              exec just vv
+              exec just $LEG_RECIPES
             '
+      - name: Record this leg's outcome
+        if: always() && steps.route.outputs.route == 'observe' && (steps.run.outcome == 'success' || steps.run.outcome == 'failure')
+        shell: bash
+        env:
+          OBLIGATION: ${{ matrix.leg }}-${{ matrix.runner }}
+          IDENTITY: ${{ steps.route.outputs.identity }}
+          OUTCOME: ${{ steps.run.outcome }}
+        run: node scripts/factory.mjs outcome "$OBLIGATION" "$IDENTITY" "$OUTCOME" .tmp/factory
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        if: always() && steps.route.outputs.route == 'observe' && (steps.run.outcome == 'success' || steps.run.outcome == 'failure')
+        with:
+          name: factory-outcome-${{ matrix.leg }}-${{ matrix.runner }}
+          path: .tmp/factory/
+          if-no-files-found: error
+          retention-days: 3
+
+  # The single required signal per host: it passes only when every leg passed.
+  acceptance:
+    name: acceptance / ${{ matrix.runner }}
+    needs: template-gate
+    if: always()
+    strategy:
+      matrix:
+        runner: [ubuntu-24.04, ubuntu-24.04-arm]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Require every leg of the gate
+        shell: bash
+        env:
+          LEGS: ${{ needs.template-gate.result }}
+        run: test "$LEGS" = success

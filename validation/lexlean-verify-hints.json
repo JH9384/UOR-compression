@@ -1,0 +1,894 @@
+{
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.LexLeanRuntime.Collections": {
+    "peak_rss_kib": 367028,
+    "wall_ms": 291
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.LexLeanRuntime.Laws": {
+    "peak_rss_kib": 388156,
+    "wall_ms": 236
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.LexLeanRuntime.Models": {
+    "peak_rss_kib": 379792,
+    "wall_ms": 245
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.LexLeanRuntime.Portable": {
+    "peak_rss_kib": 371184,
+    "wall_ms": 277
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Claims": {
+    "peak_rss_kib": 373156,
+    "wall_ms": 287
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Core.Basis": {
+    "peak_rss_kib": 379176,
+    "wall_ms": 258
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Core.ByteBuilder": {
+    "peak_rss_kib": 385920,
+    "wall_ms": 235
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Core.Bytes": {
+    "peak_rss_kib": 382308,
+    "wall_ms": 366
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Core.ExecutionCredit": {
+    "peak_rss_kib": 388652,
+    "wall_ms": 250
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Core.Graph": {
+    "peak_rss_kib": 261944,
+    "wall_ms": 232
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Core.Lifetime": {
+    "peak_rss_kib": 384724,
+    "wall_ms": 362
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Core.ReferenceSemantics": {
+    "peak_rss_kib": 369724,
+    "wall_ms": 305
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Core.Resources": {
+    "peak_rss_kib": 381368,
+    "wall_ms": 253
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Core.Slots": {
+    "peak_rss_kib": 374228,
+    "wall_ms": 297
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Core.StepMachine": {
+    "peak_rss_kib": 383548,
+    "wall_ms": 269
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Core.Store": {
+    "peak_rss_kib": 374360,
+    "wall_ms": 269
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Core.Tests": {
+    "peak_rss_kib": 390492,
+    "wall_ms": 249
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Core.Types": {
+    "peak_rss_kib": 385288,
+    "wall_ms": 239
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Core.Validation": {
+    "peak_rss_kib": 378856,
+    "wall_ms": 268
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Integrity.BoundedChain": {
+    "peak_rss_kib": 376596,
+    "wall_ms": 256
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Integrity.Contract": {
+    "peak_rss_kib": 379956,
+    "wall_ms": 236
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Integrity.Sha256": {
+    "peak_rss_kib": 376100,
+    "wall_ms": 270
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Registry": {
+    "peak_rss_kib": 372192,
+    "wall_ms": 284
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.AntiUnify": {
+    "peak_rss_kib": 384716,
+    "wall_ms": 249
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.ArchiveBuild": {
+    "peak_rss_kib": 359200,
+    "wall_ms": 318
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.ArchiveControls": {
+    "peak_rss_kib": 400536,
+    "wall_ms": 247
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.ArchiveTrial": {
+    "peak_rss_kib": 383144,
+    "wall_ms": 295
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.BasisIdentity": {
+    "peak_rss_kib": 373944,
+    "wall_ms": 292
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.Boundaries": {
+    "peak_rss_kib": 370624,
+    "wall_ms": 279
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.Certification": {
+    "peak_rss_kib": 402060,
+    "wall_ms": 259
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.CertificationControls": {
+    "peak_rss_kib": 378904,
+    "wall_ms": 332
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.Charts": {
+    "peak_rss_kib": 384600,
+    "wall_ms": 251
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.Compose": {
+    "peak_rss_kib": 371156,
+    "wall_ms": 282
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.Dictionary": {
+    "peak_rss_kib": 390632,
+    "wall_ms": 230
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.DictionaryFit": {
+    "peak_rss_kib": 387204,
+    "wall_ms": 354
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.Effort": {
+    "peak_rss_kib": 257508,
+    "wall_ms": 230
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.Engine": {
+    "peak_rss_kib": 409964,
+    "wall_ms": 265
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.Enumerate": {
+    "peak_rss_kib": 380640,
+    "wall_ms": 250
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.ExecutionAccountingControls": {
+    "peak_rss_kib": 403612,
+    "wall_ms": 239
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.Expression": {
+    "peak_rss_kib": 381928,
+    "wall_ms": 246
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.FrameMeasure": {
+    "peak_rss_kib": 379928,
+    "wall_ms": 269
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.FramingOrder": {
+    "peak_rss_kib": 385948,
+    "wall_ms": 381
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.GeneralFit": {
+    "peak_rss_kib": 392808,
+    "wall_ms": 243
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.HashRope": {
+    "peak_rss_kib": 379132,
+    "wall_ms": 260
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.HuffmanControls": {
+    "peak_rss_kib": 380148,
+    "wall_ms": 293
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.HuffmanFit": {
+    "peak_rss_kib": 357132,
+    "wall_ms": 311
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.HuffmanProgram": {
+    "peak_rss_kib": 374020,
+    "wall_ms": 279
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.Identity": {
+    "peak_rss_kib": 377188,
+    "wall_ms": 270
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.InputModels": {
+    "peak_rss_kib": 391060,
+    "wall_ms": 262
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.Lower": {
+    "peak_rss_kib": 365040,
+    "wall_ms": 284
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.LzFit": {
+    "peak_rss_kib": 364740,
+    "wall_ms": 289
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.LzProgram": {
+    "peak_rss_kib": 387184,
+    "wall_ms": 336
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.ModelFit": {
+    "peak_rss_kib": 389952,
+    "wall_ms": 260
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.Normalize": {
+    "peak_rss_kib": 374440,
+    "wall_ms": 271
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.NormalizeCredit": {
+    "peak_rss_kib": 382620,
+    "wall_ms": 264
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.NormalizeObjects": {
+    "peak_rss_kib": 380924,
+    "wall_ms": 381
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.Order": {
+    "peak_rss_kib": 376016,
+    "wall_ms": 261
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.OrderRope": {
+    "peak_rss_kib": 376512,
+    "wall_ms": 257
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.Overlay": {
+    "peak_rss_kib": 384708,
+    "wall_ms": 258
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.PackedControls": {
+    "peak_rss_kib": 391592,
+    "wall_ms": 255
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.PackedDictionary": {
+    "peak_rss_kib": 386248,
+    "wall_ms": 235
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.PackedFit": {
+    "peak_rss_kib": 376240,
+    "wall_ms": 299
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.PackedLayout": {
+    "peak_rss_kib": 383908,
+    "wall_ms": 261
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.PrefixModels": {
+    "peak_rss_kib": 392596,
+    "wall_ms": 239
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.ProgramTrial": {
+    "peak_rss_kib": 382460,
+    "wall_ms": 291
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.Ranking": {
+    "peak_rss_kib": 355928,
+    "wall_ms": 297
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.Replay": {
+    "peak_rss_kib": 390912,
+    "wall_ms": 276
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.ReplayControls": {
+    "peak_rss_kib": 382408,
+    "wall_ms": 317
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.Residual": {
+    "peak_rss_kib": 375748,
+    "wall_ms": 267
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.ResidualRope": {
+    "peak_rss_kib": 375404,
+    "wall_ms": 265
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.RopeBuilder": {
+    "peak_rss_kib": 394068,
+    "wall_ms": 226
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.RopeLex": {
+    "peak_rss_kib": 365756,
+    "wall_ms": 296
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.RopeQueue": {
+    "peak_rss_kib": 385888,
+    "wall_ms": 235
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.RopeWords": {
+    "peak_rss_kib": 376500,
+    "wall_ms": 288
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.Schedule": {
+    "peak_rss_kib": 352228,
+    "wall_ms": 308
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.Sharing": {
+    "peak_rss_kib": 359900,
+    "wall_ms": 318
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.SharingJob": {
+    "peak_rss_kib": 385928,
+    "wall_ms": 256
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.State": {
+    "peak_rss_kib": 380028,
+    "wall_ms": 259
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.StreamBuilder": {
+    "peak_rss_kib": 374940,
+    "wall_ms": 289
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.Synthesis": {
+    "peak_rss_kib": 384804,
+    "wall_ms": 306
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.Verify": {
+    "peak_rss_kib": 363156,
+    "wall_ms": 278
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Search.VerifyRope": {
+    "peak_rss_kib": 385016,
+    "wall_ms": 237
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Specification": {
+    "peak_rss_kib": 364764,
+    "wall_ms": 265
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Varint": {
+    "peak_rss_kib": 380420,
+    "wall_ms": 266
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.VarintContract": {
+    "peak_rss_kib": 378160,
+    "wall_ms": 247
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Wire.Cursor": {
+    "peak_rss_kib": 380504,
+    "wall_ms": 250
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Wire.Frame": {
+    "peak_rss_kib": 387100,
+    "wall_ms": 238
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Wire.FrameParse": {
+    "peak_rss_kib": 378808,
+    "wall_ms": 269
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Wire.GraphEmit": {
+    "peak_rss_kib": 386728,
+    "wall_ms": 235
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Wire.GraphParse": {
+    "peak_rss_kib": 386044,
+    "wall_ms": 245
+  },
+  "LexLeanAudit.Afb63728fb249f7c1d883634cc14649da.Uorc.Uorc.Wire.ObjectSplit": {
+    "peak_rss_kib": 384856,
+    "wall_ms": 239
+  },
+  "LexLeanExtract.Xfb63728fb249f7c1d883634cc14649da": {
+    "peak_rss_kib": 1548428,
+    "wall_ms": 42077
+  },
+  "LexLeanIdentityProbe": {
+    "peak_rss_kib": 192284,
+    "wall_ms": 205
+  },
+  "LexLeanPreservation.Compose": {
+    "peak_rss_kib": 894692,
+    "wall_ms": 3718
+  },
+  "LexLeanPreservation.Core": {
+    "peak_rss_kib": 878032,
+    "wall_ms": 5039
+  },
+  "LexLeanPreservation.Fixed": {
+    "peak_rss_kib": 866168,
+    "wall_ms": 4159
+  },
+  "LexLeanPreservation.Keys": {
+    "peak_rss_kib": 877292,
+    "wall_ms": 5394
+  },
+  "LexLeanPreservation.Primitives": {
+    "peak_rss_kib": 852684,
+    "wall_ms": 3728
+  },
+  "LexLeanPreservation.RustBase": {
+    "peak_rss_kib": 902108,
+    "wall_ms": 5792
+  },
+  "LexLeanPreservation.RustCorr": {
+    "peak_rss_kib": 980396,
+    "wall_ms": 7541
+  },
+  "LexLeanPreservation.RustLemmas": {
+    "peak_rss_kib": 1540444,
+    "wall_ms": 48320
+  },
+  "LexLeanPreservation.RustMatches": {
+    "peak_rss_kib": 1037412,
+    "wall_ms": 10786
+  },
+  "LexLeanPreservation.RustSound": {
+    "peak_rss_kib": 1009272,
+    "wall_ms": 9689
+  },
+  "LexLeanPreservation.Templates": {
+    "peak_rss_kib": 889352,
+    "wall_ms": 4310
+  },
+  "LexLeanPreservation.Validate": {
+    "peak_rss_kib": 865264,
+    "wall_ms": 3804
+  },
+  "LexLeanPreservation.Values": {
+    "peak_rss_kib": 858084,
+    "wall_ms": 3536
+  },
+  "LexLeanPreserve.Cfb63728fb249f7c1d883634cc14649da.R0": {
+    "peak_rss_kib": 1950984,
+    "wall_ms": 6053
+  },
+  "LexLeanPreserve.Cfb63728fb249f7c1d883634cc14649da.R1": {
+    "peak_rss_kib": 1939704,
+    "wall_ms": 4314
+  },
+  "LexLeanPreserve.Cfb63728fb249f7c1d883634cc14649da.R10": {
+    "peak_rss_kib": 1913196,
+    "wall_ms": 3676
+  },
+  "LexLeanPreserve.Cfb63728fb249f7c1d883634cc14649da.R11": {
+    "peak_rss_kib": 1918812,
+    "wall_ms": 3614
+  },
+  "LexLeanPreserve.Cfb63728fb249f7c1d883634cc14649da.R12": {
+    "peak_rss_kib": 1914728,
+    "wall_ms": 3731
+  },
+  "LexLeanPreserve.Cfb63728fb249f7c1d883634cc14649da.R13": {
+    "peak_rss_kib": 1925492,
+    "wall_ms": 3793
+  },
+  "LexLeanPreserve.Cfb63728fb249f7c1d883634cc14649da.R14": {
+    "peak_rss_kib": 1920096,
+    "wall_ms": 3753
+  },
+  "LexLeanPreserve.Cfb63728fb249f7c1d883634cc14649da.R15": {
+    "peak_rss_kib": 1915808,
+    "wall_ms": 3862
+  },
+  "LexLeanPreserve.Cfb63728fb249f7c1d883634cc14649da.R16": {
+    "peak_rss_kib": 1920056,
+    "wall_ms": 3624
+  },
+  "LexLeanPreserve.Cfb63728fb249f7c1d883634cc14649da.R17": {
+    "peak_rss_kib": 1911616,
+    "wall_ms": 3677
+  },
+  "LexLeanPreserve.Cfb63728fb249f7c1d883634cc14649da.R18": {
+    "peak_rss_kib": 1928876,
+    "wall_ms": 4061
+  },
+  "LexLeanPreserve.Cfb63728fb249f7c1d883634cc14649da.R19": {
+    "peak_rss_kib": 1914968,
+    "wall_ms": 3659
+  },
+  "LexLeanPreserve.Cfb63728fb249f7c1d883634cc14649da.R2": {
+    "peak_rss_kib": 2598488,
+    "wall_ms": 28557
+  },
+  "LexLeanPreserve.Cfb63728fb249f7c1d883634cc14649da.R20": {
+    "peak_rss_kib": 1972312,
+    "wall_ms": 147541
+  },
+  "LexLeanPreserve.Cfb63728fb249f7c1d883634cc14649da.R3": {
+    "peak_rss_kib": 1949084,
+    "wall_ms": 4878
+  },
+  "LexLeanPreserve.Cfb63728fb249f7c1d883634cc14649da.R4": {
+    "peak_rss_kib": 1923884,
+    "wall_ms": 4141
+  },
+  "LexLeanPreserve.Cfb63728fb249f7c1d883634cc14649da.R5": {
+    "peak_rss_kib": 1928028,
+    "wall_ms": 3483
+  },
+  "LexLeanPreserve.Cfb63728fb249f7c1d883634cc14649da.R6": {
+    "peak_rss_kib": 1936636,
+    "wall_ms": 4201
+  },
+  "LexLeanPreserve.Cfb63728fb249f7c1d883634cc14649da.R7": {
+    "peak_rss_kib": 2022656,
+    "wall_ms": 10590
+  },
+  "LexLeanPreserve.Cfb63728fb249f7c1d883634cc14649da.R8": {
+    "peak_rss_kib": 1924076,
+    "wall_ms": 4019
+  },
+  "LexLeanPreserve.Cfb63728fb249f7c1d883634cc14649da.R9": {
+    "peak_rss_kib": 1933272,
+    "wall_ms": 3975
+  },
+  "LexLeanProbe.Pfb63728fb249f7c1d883634cc14649da": {
+    "peak_rss_kib": 378404,
+    "wall_ms": 234
+  },
+  "LexLeanRuntime.Collections": {
+    "peak_rss_kib": 1404568,
+    "wall_ms": 3354
+  },
+  "LexLeanRuntime.Laws": {
+    "peak_rss_kib": 1407560,
+    "wall_ms": 3227
+  },
+  "LexLeanRuntime.Models": {
+    "peak_rss_kib": 1404360,
+    "wall_ms": 3082
+  },
+  "LexLeanRuntime.Portable": {
+    "peak_rss_kib": 1403980,
+    "wall_ms": 15848
+  },
+  "LexLeanTarget.RustSemantics": {
+    "peak_rss_kib": 438096,
+    "wall_ms": 1351
+  },
+  "LexLeanTarget.RustSyntax": {
+    "peak_rss_kib": 427420,
+    "wall_ms": 1521
+  },
+  "LexLeanTarget.TargetSemantics": {
+    "peak_rss_kib": 545368,
+    "wall_ms": 17450
+  },
+  "LexLeanTarget.TargetSyntax": {
+    "peak_rss_kib": 423624,
+    "wall_ms": 1073
+  },
+  "Uorc.Uorc.Claims": {
+    "peak_rss_kib": 533644,
+    "wall_ms": 430
+  },
+  "Uorc.Uorc.Core.Basis": {
+    "peak_rss_kib": 1458592,
+    "wall_ms": 1468
+  },
+  "Uorc.Uorc.Core.ByteBuilder": {
+    "peak_rss_kib": 1411628,
+    "wall_ms": 1335
+  },
+  "Uorc.Uorc.Core.Bytes": {
+    "peak_rss_kib": 1409680,
+    "wall_ms": 906
+  },
+  "Uorc.Uorc.Core.ExecutionCredit": {
+    "peak_rss_kib": 1419456,
+    "wall_ms": 697
+  },
+  "Uorc.Uorc.Core.Graph": {
+    "peak_rss_kib": 1412036,
+    "wall_ms": 771
+  },
+  "Uorc.Uorc.Core.Lifetime": {
+    "peak_rss_kib": 1472228,
+    "wall_ms": 2209
+  },
+  "Uorc.Uorc.Core.ReferenceSemantics": {
+    "peak_rss_kib": 1415348,
+    "wall_ms": 1284
+  },
+  "Uorc.Uorc.Core.Resources": {
+    "peak_rss_kib": 1408584,
+    "wall_ms": 923
+  },
+  "Uorc.Uorc.Core.Slots": {
+    "peak_rss_kib": 1411308,
+    "wall_ms": 850
+  },
+  "Uorc.Uorc.Core.StepMachine": {
+    "peak_rss_kib": 1419520,
+    "wall_ms": 1401
+  },
+  "Uorc.Uorc.Core.Store": {
+    "peak_rss_kib": 1413176,
+    "wall_ms": 1362
+  },
+  "Uorc.Uorc.Core.Tests": {
+    "peak_rss_kib": 1881208,
+    "wall_ms": 33611
+  },
+  "Uorc.Uorc.Core.Types": {
+    "peak_rss_kib": 1417416,
+    "wall_ms": 2504
+  },
+  "Uorc.Uorc.Core.Validation": {
+    "peak_rss_kib": 1504504,
+    "wall_ms": 3270
+  },
+  "Uorc.Uorc.Integrity.BoundedChain": {
+    "peak_rss_kib": 1406668,
+    "wall_ms": 802
+  },
+  "Uorc.Uorc.Integrity.Contract": {
+    "peak_rss_kib": 533564,
+    "wall_ms": 350
+  },
+  "Uorc.Uorc.Integrity.Sha256": {
+    "peak_rss_kib": 1433068,
+    "wall_ms": 1570
+  },
+  "Uorc.Uorc.Registry": {
+    "peak_rss_kib": 1406256,
+    "wall_ms": 739
+  },
+  "Uorc.Uorc.Search.AntiUnify": {
+    "peak_rss_kib": 1415104,
+    "wall_ms": 833
+  },
+  "Uorc.Uorc.Search.ArchiveBuild": {
+    "peak_rss_kib": 1418232,
+    "wall_ms": 872
+  },
+  "Uorc.Uorc.Search.ArchiveControls": {
+    "peak_rss_kib": 1432664,
+    "wall_ms": 736
+  },
+  "Uorc.Uorc.Search.ArchiveTrial": {
+    "peak_rss_kib": 1432440,
+    "wall_ms": 1301
+  },
+  "Uorc.Uorc.Search.BasisIdentity": {
+    "peak_rss_kib": 1417560,
+    "wall_ms": 808
+  },
+  "Uorc.Uorc.Search.Boundaries": {
+    "peak_rss_kib": 533520,
+    "wall_ms": 348
+  },
+  "Uorc.Uorc.Search.Certification": {
+    "peak_rss_kib": 1444276,
+    "wall_ms": 737
+  },
+  "Uorc.Uorc.Search.CertificationControls": {
+    "peak_rss_kib": 1445716,
+    "wall_ms": 686
+  },
+  "Uorc.Uorc.Search.Charts": {
+    "peak_rss_kib": 1414916,
+    "wall_ms": 899
+  },
+  "Uorc.Uorc.Search.Compose": {
+    "peak_rss_kib": 1414496,
+    "wall_ms": 695
+  },
+  "Uorc.Uorc.Search.Dictionary": {
+    "peak_rss_kib": 1414512,
+    "wall_ms": 684
+  },
+  "Uorc.Uorc.Search.DictionaryFit": {
+    "peak_rss_kib": 1435388,
+    "wall_ms": 890
+  },
+  "Uorc.Uorc.Search.Effort": {
+    "peak_rss_kib": 1418172,
+    "wall_ms": 901
+  },
+  "Uorc.Uorc.Search.Engine": {
+    "peak_rss_kib": 1448224,
+    "wall_ms": 3592
+  },
+  "Uorc.Uorc.Search.Enumerate": {
+    "peak_rss_kib": 1405800,
+    "wall_ms": 1302
+  },
+  "Uorc.Uorc.Search.ExecutionAccountingControls": {
+    "peak_rss_kib": 8593280,
+    "wall_ms": 70606
+  },
+  "Uorc.Uorc.Search.Expression": {
+    "peak_rss_kib": 1414416,
+    "wall_ms": 736
+  },
+  "Uorc.Uorc.Search.FrameMeasure": {
+    "peak_rss_kib": 1417696,
+    "wall_ms": 898
+  },
+  "Uorc.Uorc.Search.FramingOrder": {
+    "peak_rss_kib": 1427712,
+    "wall_ms": 69416
+  },
+  "Uorc.Uorc.Search.GeneralFit": {
+    "peak_rss_kib": 1422680,
+    "wall_ms": 797
+  },
+  "Uorc.Uorc.Search.HashRope": {
+    "peak_rss_kib": 1411588,
+    "wall_ms": 900
+  },
+  "Uorc.Uorc.Search.HuffmanControls": {
+    "peak_rss_kib": 5072556,
+    "wall_ms": 206456
+  },
+  "Uorc.Uorc.Search.HuffmanFit": {
+    "peak_rss_kib": 1416920,
+    "wall_ms": 2646
+  },
+  "Uorc.Uorc.Search.HuffmanProgram": {
+    "peak_rss_kib": 1414532,
+    "wall_ms": 902
+  },
+  "Uorc.Uorc.Search.Identity": {
+    "peak_rss_kib": 1416824,
+    "wall_ms": 887
+  },
+  "Uorc.Uorc.Search.InputModels": {
+    "peak_rss_kib": 1423240,
+    "wall_ms": 793
+  },
+  "Uorc.Uorc.Search.Lower": {
+    "peak_rss_kib": 1416168,
+    "wall_ms": 831
+  },
+  "Uorc.Uorc.Search.LzFit": {
+    "peak_rss_kib": 1414488,
+    "wall_ms": 831
+  },
+  "Uorc.Uorc.Search.LzProgram": {
+    "peak_rss_kib": 1415084,
+    "wall_ms": 830
+  },
+  "Uorc.Uorc.Search.ModelFit": {
+    "peak_rss_kib": 1422204,
+    "wall_ms": 965
+  },
+  "Uorc.Uorc.Search.Normalize": {
+    "peak_rss_kib": 1419280,
+    "wall_ms": 2295
+  },
+  "Uorc.Uorc.Search.NormalizeCredit": {
+    "peak_rss_kib": 1427784,
+    "wall_ms": 37409
+  },
+  "Uorc.Uorc.Search.NormalizeObjects": {
+    "peak_rss_kib": 1422172,
+    "wall_ms": 1351
+  },
+  "Uorc.Uorc.Search.Order": {
+    "peak_rss_kib": 1405992,
+    "wall_ms": 923
+  },
+  "Uorc.Uorc.Search.OrderRope": {
+    "peak_rss_kib": 1412976,
+    "wall_ms": 1293
+  },
+  "Uorc.Uorc.Search.Overlay": {
+    "peak_rss_kib": 1417628,
+    "wall_ms": 747
+  },
+  "Uorc.Uorc.Search.PackedControls": {
+    "peak_rss_kib": 1664112,
+    "wall_ms": 17277
+  },
+  "Uorc.Uorc.Search.PackedDictionary": {
+    "peak_rss_kib": 1414376,
+    "wall_ms": 798
+  },
+  "Uorc.Uorc.Search.PackedFit": {
+    "peak_rss_kib": 1420124,
+    "wall_ms": 798
+  },
+  "Uorc.Uorc.Search.PackedLayout": {
+    "peak_rss_kib": 1422176,
+    "wall_ms": 2291
+  },
+  "Uorc.Uorc.Search.PrefixModels": {
+    "peak_rss_kib": 1422348,
+    "wall_ms": 872
+  },
+  "Uorc.Uorc.Search.ProgramTrial": {
+    "peak_rss_kib": 7280844,
+    "wall_ms": 25669
+  },
+  "Uorc.Uorc.Search.Ranking": {
+    "peak_rss_kib": 1412024,
+    "wall_ms": 757
+  },
+  "Uorc.Uorc.Search.Replay": {
+    "peak_rss_kib": 1444452,
+    "wall_ms": 1536
+  },
+  "Uorc.Uorc.Search.ReplayControls": {
+    "peak_rss_kib": 1445036,
+    "wall_ms": 1005
+  },
+  "Uorc.Uorc.Search.Residual": {
+    "peak_rss_kib": 1417600,
+    "wall_ms": 882
+  },
+  "Uorc.Uorc.Search.ResidualRope": {
+    "peak_rss_kib": 1602248,
+    "wall_ms": 2396
+  },
+  "Uorc.Uorc.Search.RopeBuilder": {
+    "peak_rss_kib": 1415116,
+    "wall_ms": 808
+  },
+  "Uorc.Uorc.Search.RopeLex": {
+    "peak_rss_kib": 1411040,
+    "wall_ms": 839
+  },
+  "Uorc.Uorc.Search.RopeQueue": {
+    "peak_rss_kib": 1411528,
+    "wall_ms": 788
+  },
+  "Uorc.Uorc.Search.RopeWords": {
+    "peak_rss_kib": 1416228,
+    "wall_ms": 768
+  },
+  "Uorc.Uorc.Search.Schedule": {
+    "peak_rss_kib": 1405744,
+    "wall_ms": 954
+  },
+  "Uorc.Uorc.Search.Sharing": {
+    "peak_rss_kib": 1419164,
+    "wall_ms": 798
+  },
+  "Uorc.Uorc.Search.SharingJob": {
+    "peak_rss_kib": 1419588,
+    "wall_ms": 811
+  },
+  "Uorc.Uorc.Search.State": {
+    "peak_rss_kib": 1415168,
+    "wall_ms": 861
+  },
+  "Uorc.Uorc.Search.StreamBuilder": {
+    "peak_rss_kib": 1414356,
+    "wall_ms": 799
+  },
+  "Uorc.Uorc.Search.Synthesis": {
+    "peak_rss_kib": 1443020,
+    "wall_ms": 1505
+  },
+  "Uorc.Uorc.Search.Verify": {
+    "peak_rss_kib": 1405960,
+    "wall_ms": 775
+  },
+  "Uorc.Uorc.Search.VerifyRope": {
+    "peak_rss_kib": 1412376,
+    "wall_ms": 1416
+  },
+  "Uorc.Uorc.Specification": {
+    "peak_rss_kib": 415184,
+    "wall_ms": 410
+  },
+  "Uorc.Uorc.Varint": {
+    "peak_rss_kib": 1405120,
+    "wall_ms": 3976
+  },
+  "Uorc.Uorc.VarintContract": {
+    "peak_rss_kib": 1405924,
+    "wall_ms": 772
+  },
+  "Uorc.Uorc.Wire.Cursor": {
+    "peak_rss_kib": 1407972,
+    "wall_ms": 978
+  },
+  "Uorc.Uorc.Wire.Frame": {
+    "peak_rss_kib": 1427764,
+    "wall_ms": 1313
+  },
+  "Uorc.Uorc.Wire.FrameParse": {
+    "peak_rss_kib": 1468872,
+    "wall_ms": 7791
+  },
+  "Uorc.Uorc.Wire.GraphEmit": {
+    "peak_rss_kib": 1423056,
+    "wall_ms": 1272
+  },
+  "Uorc.Uorc.Wire.GraphParse": {
+    "peak_rss_kib": 1439248,
+    "wall_ms": 13996
+  },
+  "Uorc.Uorc.Wire.ObjectSplit": {
+    "peak_rss_kib": 1410256,
+    "wall_ms": 870
+  }
+}

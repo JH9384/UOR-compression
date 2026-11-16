@@ -1,9 +1,12 @@
 [workspace]
 resolver = "2"
 members = ["crates/*", "xtask"]
+# The client crates LexLean exports are dependencies, not members: they carry
+# LexLean's lint table and formatting, which the workspace gates do not own.
+exclude = ["generated/rust"]
 
 [workspace.package]
-version = "0.1.0"
+version = "0.6.0"
 edition = "2021"
 # Raise this when something here needs a newer compiler; nothing does yet.
 rust-version = "1.89"
@@ -16,11 +19,16 @@ keywords = []
 categories = []
 
 [workspace.dependencies]
-repo-model = { version = "0.1.0", path = "crates/model" }
+repo-model = { version = "0.6.0", path = "crates/model" }
 # A `path` dependency with no `version` is a wildcard requirement, and
 # `cargo deny` refuses those (`wildcards = "deny"`). Every internal dependency
 # carries both.
-repo-conformance = { version = "0.1.0", path = "crates/conformance" }
+repo-conformance = { version = "0.6.0", path = "crates/conformance" }
+uorc = { version = "0.6.0", path = "crates/uorc" }
+# The LexLean the whole gate runs (lexlean.pin.json): the model, the source
+# conversions and the runtime staged for standalone `lean` follow the same
+# revision as the pinned compiler; scripts/lexlean-pin.mjs refuses any other.
+lexlean = { version = "=0.4.0", git = "https://github.com/UOR-Foundation/LexLean", rev = "2bf5c1e23744dff7edb2b7da3bd3e1c02d814919" }
 
 [workspace.lints.rust]
 missing_docs = "deny"
@@ -34,3 +42,25 @@ missing_safety_doc = "deny"
 opt-level = 3
 lto = "thin"
 codegen-units = 1
+
+# Dependencies (LexLean above all) carry no debug info in dev/test builds:
+# the SDK gate builds in a bounded temporary filesystem, and debug symbols of
+# the compiler crate alone exceed it.
+[profile.dev.package."*"]
+debug = false
+
+# The client's native codec is exercised on multi-MiB frames in `cargo test`;
+# unoptimized it costs minutes of the acceptance budget.
+[profile.dev.package.uorc]
+opt-level = 3
+
+# The exported reference code is what the differential tests run; unoptimized
+# it is ~6x slower than at opt-level 1, which costs more than it compiles.
+[profile.dev.package.uorc_compress]
+opt-level = 1
+
+[profile.dev.package.uorc_decompress]
+opt-level = 1
+
+[profile.dev.package.uorc_search]
+opt-level = 1
